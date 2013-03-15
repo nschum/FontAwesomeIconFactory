@@ -1,0 +1,7 @@
+*.xcodeproj/*.mode*
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.perspective*
+*.xcworkspace/*.mode*
+*.xcworkspace/*.pbxuser
+*.xcworkspace/*.perspective*
+xcuserdata

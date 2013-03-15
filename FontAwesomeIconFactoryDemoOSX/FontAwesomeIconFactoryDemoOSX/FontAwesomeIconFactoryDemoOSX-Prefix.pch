@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AwesomeIconFactoryDemoOSX' target in the 'AwesomeIconFactoryDemoOSX' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AA101AACC8ED07455CA593B /* NIKFontAwesomePathRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA105DB716DC9B5B0A21330 /* NIKFontAwesomePathRenderer.m */; };
+		1AA10210606C87E9ADE3FFFF /* NIKFontAwesomeIconFactory+iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1036749699A677C5C08E2 /* NIKFontAwesomeIconFactory+iOS.m */; };
+		1AA103C340331DA6AAF9B641 /* NIKFontAwesomePathFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10B1D960162B9B180D508 /* NIKFontAwesomePathFactory.m */; };
+		1AA105AEF10C3C1F685BA78A /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AA105F7FB838D999D1A8325 /* FontAwesome.otf */; };
+		1AA105DAFA9CF560D7693995 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10416780465E45812ED84 /* TabBarController.m */; };
+		1AA10BFC1AB409AF04383D16 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA106B5450296C990FFC44C /* CoreText.framework */; };
+		24CF4F2216EA12F900F16647 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF4F2116EA12F900F16647 /* UIKit.framework */; };
+		24CF4F2416EA12F900F16647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF4F2316EA12F900F16647 /* Foundation.framework */; };
+		24CF4F2616EA12F900F16647 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF4F2516EA12F900F16647 /* CoreGraphics.framework */; };
+		24CF4F2C16EA12F900F16647 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4F2A16EA12F900F16647 /* InfoPlist.strings */; };
+		24CF4F2E16EA12F900F16647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F2D16EA12F900F16647 /* main.m */; };
+		24CF4F3216EA12F900F16647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F3116EA12F900F16647 /* AppDelegate.m */; };
+		24CF4F3416EA12F900F16647 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4F3316EA12F900F16647 /* Default.png */; };
+		24CF4F3616EA12F900F16647 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4F3516EA12F900F16647 /* Default@2x.png */; };
+		24CF4F3816EA12F900F16647 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4F3716EA12F900F16647 /* Default-568h@2x.png */; };
+		24CF4F3B16EA12F900F16647 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4F3916EA12F900F16647 /* MainStoryboard_iPhone.storyboard */; };
+		24CF4F4116EA12F900F16647 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F4016EA12F900F16647 /* FirstViewController.m */; };
+		24CF4F4816EA12F900F16647 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F4716EA12F900F16647 /* SecondViewController.m */; };
+		24CF4F5416EA3DE400F16647 /* NIKFontAwesomeIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F5316EA3DE400F16647 /* NIKFontAwesomeIconFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AA1024E4AC97227BC7EA6C0 /* NIKFontAwesomeIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIcon.h; path = ../../NIKFontAwesomeIcon.h; sourceTree = "<group>"; };
+		1AA1036749699A677C5C08E2 /* NIKFontAwesomeIconFactory+iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NIKFontAwesomeIconFactory+iOS.m"; path = "../../NIKFontAwesomeIconFactory+iOS.m"; sourceTree = "<group>"; };
+		1AA10416780465E45812ED84 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		1AA105DB716DC9B5B0A21330 /* NIKFontAwesomePathRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathRenderer.m; path = ../../NIKFontAwesomePathRenderer.m; sourceTree = "<group>"; };
+		1AA105F7FB838D999D1A8325 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file.otf; name = FontAwesome.otf; path = "../../Font-Awesome/font/FontAwesome.otf"; sourceTree = "<group>"; };
+		1AA106B5450296C990FFC44C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1AA109AF0654752D64A3A523 /* NIKFontAwesomeIconFactory+iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NIKFontAwesomeIconFactory+iOS.h"; path = "../../NIKFontAwesomeIconFactory+iOS.h"; sourceTree = "<group>"; };
+		1AA10AD62C8CCD240A3422B4 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		1AA10B1D960162B9B180D508 /* NIKFontAwesomePathFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathFactory.m; path = ../../NIKFontAwesomePathFactory.m; sourceTree = "<group>"; };
+		1AA10B8EE83C3B054C743EC1 /* NIKFontAwesomePathFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathFactory.h; path = ../../NIKFontAwesomePathFactory.h; sourceTree = "<group>"; };
+		1AA10CBC26BBC544AFB32D55 /* NIKFontAwesomePathRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathRenderer.h; path = ../../NIKFontAwesomePathRenderer.h; sourceTree = "<group>"; };
+		24CF4F1E16EA12F900F16647 /* FontAwesomeIconFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeIconFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CF4F2116EA12F900F16647 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24CF4F2316EA12F900F16647 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24CF4F2516EA12F900F16647 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24CF4F2916EA12F900F16647 /* FontAwesomeIconFactoryDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryDemo-Info.plist"; sourceTree = "<group>"; };
+		24CF4F2B16EA12F900F16647 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24CF4F2D16EA12F900F16647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24CF4F2F16EA12F900F16647 /* FontAwesomeIconFactoryDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeIconFactoryDemo-Prefix.pch"; sourceTree = "<group>"; };
+		24CF4F3016EA12F900F16647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24CF4F3116EA12F900F16647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24CF4F3316EA12F900F16647 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		24CF4F3516EA12F900F16647 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		24CF4F3716EA12F900F16647 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		24CF4F3A16EA12F900F16647 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		24CF4F3F16EA12F900F16647 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		24CF4F4016EA12F900F16647 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		24CF4F4616EA12F900F16647 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		24CF4F4716EA12F900F16647 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		24CF4F5216EA3DE400F16647 /* NIKFontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconFactory.h; path = ../../NIKFontAwesomeIconFactory.h; sourceTree = "<group>"; };
+		24CF4F5316EA3DE400F16647 /* NIKFontAwesomeIconFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeIconFactory.m; path = ../../NIKFontAwesomeIconFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CF4F1B16EA12F900F16647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CF4F2216EA12F900F16647 /* UIKit.framework in Frameworks */,
+				24CF4F2416EA12F900F16647 /* Foundation.framework in Frameworks */,
+				24CF4F2616EA12F900F16647 /* CoreGraphics.framework in Frameworks */,
+				1AA10BFC1AB409AF04383D16 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA104D7AE5FC117C5BC7A38 /* FontAwesomeIconFactory */ = {
+			isa = PBXGroup;
+			children = (
+				1AA105F7FB838D999D1A8325 /* FontAwesome.otf */,
+				1AA1024E4AC97227BC7EA6C0 /* NIKFontAwesomeIcon.h */,
+				1AA109AF0654752D64A3A523 /* NIKFontAwesomeIconFactory+iOS.h */,
+				1AA1036749699A677C5C08E2 /* NIKFontAwesomeIconFactory+iOS.m */,
+				24CF4F5216EA3DE400F16647 /* NIKFontAwesomeIconFactory.h */,
+				24CF4F5316EA3DE400F16647 /* NIKFontAwesomeIconFactory.m */,
+				1AA10B8EE83C3B054C743EC1 /* NIKFontAwesomePathFactory.h */,
+				1AA10B1D960162B9B180D508 /* NIKFontAwesomePathFactory.m */,
+				1AA10CBC26BBC544AFB32D55 /* NIKFontAwesomePathRenderer.h */,
+				1AA105DB716DC9B5B0A21330 /* NIKFontAwesomePathRenderer.m */,
+			);
+			name = FontAwesomeIconFactory;
+			sourceTree = "<group>";
+		};
+		24CF4F1516EA12F900F16647 = {
+			isa = PBXGroup;
+			children = (
+				24CF4F2716EA12F900F16647 /* FontAwesomeIconFactoryDemo */,
+				24CF4F2016EA12F900F16647 /* Frameworks */,
+				24CF4F1F16EA12F900F16647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24CF4F1F16EA12F900F16647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CF4F1E16EA12F900F16647 /* FontAwesomeIconFactoryDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CF4F2016EA12F900F16647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24CF4F2116EA12F900F16647 /* UIKit.framework */,
+				24CF4F2316EA12F900F16647 /* Foundation.framework */,
+				24CF4F2516EA12F900F16647 /* CoreGraphics.framework */,
+				1AA106B5450296C990FFC44C /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24CF4F2716EA12F900F16647 /* FontAwesomeIconFactoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				24CF4F3016EA12F900F16647 /* AppDelegate.h */,
+				24CF4F3116EA12F900F16647 /* AppDelegate.m */,
+				24CF4F3916EA12F900F16647 /* MainStoryboard_iPhone.storyboard */,
+				24CF4F3F16EA12F900F16647 /* FirstViewController.h */,
+				24CF4F4016EA12F900F16647 /* FirstViewController.m */,
+				24CF4F4616EA12F900F16647 /* SecondViewController.h */,
+				24CF4F4716EA12F900F16647 /* SecondViewController.m */,
+				24CF4F2816EA12F900F16647 /* Supporting Files */,
+				1AA10416780465E45812ED84 /* TabBarController.m */,
+				1AA10AD62C8CCD240A3422B4 /* TabBarController.h */,
+				1AA104D7AE5FC117C5BC7A38 /* FontAwesomeIconFactory */,
+			);
+			path = FontAwesomeIconFactoryDemo;
+			sourceTree = "<group>";
+		};
+		24CF4F2816EA12F900F16647 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24CF4F2916EA12F900F16647 /* FontAwesomeIconFactoryDemo-Info.plist */,
+				24CF4F2A16EA12F900F16647 /* InfoPlist.strings */,
+				24CF4F2D16EA12F900F16647 /* main.m */,
+				24CF4F2F16EA12F900F16647 /* FontAwesomeIconFactoryDemo-Prefix.pch */,
+				24CF4F3316EA12F900F16647 /* Default.png */,
+				24CF4F3516EA12F900F16647 /* Default@2x.png */,
+				24CF4F3716EA12F900F16647 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CF4F1D16EA12F900F16647 /* FontAwesomeIconFactoryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CF4F4F16EA12F900F16647 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactoryDemo" */;
+			buildPhases = (
+				24CF4F1A16EA12F900F16647 /* Sources */,
+				24CF4F1B16EA12F900F16647 /* Frameworks */,
+				24CF4F1C16EA12F900F16647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeIconFactoryDemo;
+			productName = FontAwesomeIconFactoryDemo;
+			productReference = 24CF4F1E16EA12F900F16647 /* FontAwesomeIconFactoryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24CF4F1616EA12F900F16647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NSC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nikolaj Schumacher";
+			};
+			buildConfigurationList = 24CF4F1916EA12F900F16647 /* Build configuration list for PBXProject "FontAwesomeIconFactoryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24CF4F1516EA12F900F16647;
+			productRefGroup = 24CF4F1F16EA12F900F16647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CF4F1D16EA12F900F16647 /* FontAwesomeIconFactoryDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24CF4F1C16EA12F900F16647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CF4F2C16EA12F900F16647 /* InfoPlist.strings in Resources */,
+				24CF4F3416EA12F900F16647 /* Default.png in Resources */,
+				24CF4F3616EA12F900F16647 /* Default@2x.png in Resources */,
+				24CF4F3816EA12F900F16647 /* Default-568h@2x.png in Resources */,
+				24CF4F3B16EA12F900F16647 /* MainStoryboard_iPhone.storyboard in Resources */,
+				1AA105AEF10C3C1F685BA78A /* FontAwesome.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CF4F1A16EA12F900F16647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CF4F2E16EA12F900F16647 /* main.m in Sources */,
+				24CF4F3216EA12F900F16647 /* AppDelegate.m in Sources */,
+				24CF4F4116EA12F900F16647 /* FirstViewController.m in Sources */,
+				24CF4F4816EA12F900F16647 /* SecondViewController.m in Sources */,
+				24CF4F5416EA3DE400F16647 /* NIKFontAwesomeIconFactory.m in Sources */,
+				1AA105DAFA9CF560D7693995 /* TabBarController.m in Sources */,
+				1AA101AACC8ED07455CA593B /* NIKFontAwesomePathRenderer.m in Sources */,
+				1AA103C340331DA6AAF9B641 /* NIKFontAwesomePathFactory.m in Sources */,
+				1AA10210606C87E9ADE3FFFF /* NIKFontAwesomeIconFactory+iOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24CF4F2A16EA12F900F16647 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CF4F2B16EA12F900F16647 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24CF4F3916EA12F900F16647 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CF4F3A16EA12F900F16647 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24CF4F4D16EA12F900F16647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-direct-ivar-access",
+					"-Weverything",
+				);
+			};
+			name = Debug;
+		};
+		24CF4F4E16EA12F900F16647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-direct-ivar-access",
+					"-Weverything",
+				);
+			};
+			name = Release;
+		};
+		24CF4F5016EA12F900F16647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Prefix.pch";
+				INFOPLIST_FILE = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24CF4F5116EA12F900F16647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Prefix.pch";
+				INFOPLIST_FILE = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24CF4F1916EA12F900F16647 /* Build configuration list for PBXProject "FontAwesomeIconFactoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CF4F4D16EA12F900F16647 /* Debug */,
+				24CF4F4E16EA12F900F16647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CF4F4F16EA12F900F16647 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CF4F5016EA12F900F16647 /* Debug */,
+				24CF4F5116EA12F900F16647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24CF4F1616EA12F900F16647 /* Project object */;
+}
