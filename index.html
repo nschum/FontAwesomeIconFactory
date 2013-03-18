@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>FontAwesomeIconFactory by nschum</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>FontAwesomeIconFactory</h1>
+        <p>A factory for turning Font Awesome icons into images for user interface controls. Works for iOS and OS X.</p>
+
+        <p class="view"><a href="https://github.com/nschum/FontAwesomeIconFactory">View the Project on GitHub <small>nschum/FontAwesomeIconFactory</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/nschum/FontAwesomeIconFactory/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/nschum/FontAwesomeIconFactory/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/nschum/FontAwesomeIconFactory">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>FontAwesomeIconFactory</h1>
+
+<p>A factory for turning Font Awesome icons into images for user interface
+controls. Works for iOS and OS X.</p>
+
+<p>Font Awesome was created by Dave Gandy.
+<a href="http://fortawesome.github.com/Font-Awesome">http://fortawesome.github.com/Font-Awesome</a></p>
+
+<p>FontAwesomeIconFactory was created by Nikolaj Schumacher.</p>
+
+<h2>Setup</h2>
+
+<h3>Info.plist</h3>
+
+<p>For iOS apps, edit your app's Info.plist to contain the key: "Fonts provided by
+application" (UIAppFonts). Then add "FontAwesome.otf" to the list under that
+key.</p>
+
+<p>This is what the XML should look like:</p>
+
+<pre><code>&lt;key&gt;UIAppFonts&lt;/key&gt;
+&lt;array&gt;
+    &lt;string&gt;FontAwesome.otf&lt;/string&gt;
+&lt;/array&gt;
+</code></pre>
+
+<p>For OSX apps, edit your app's Info.plist to contain the key: "Application fonts
+resource path" (ATSApplicationFontsPath). Set the value to "." (or to the
+resource path where you have the font file copied).</p>
+
+<p>This is what the XML should look like:</p>
+
+<pre><code>&lt;key&gt;ATSApplicationFontsPath&lt;/key&gt;
+&lt;string&gt;.&lt;/string&gt;
+</code></pre>
+
+<h3>CocoaPods</h3>
+
+<p>Add the following to your Podfile:</p>
+
+<pre><code>pod 'FontAwesomeIconFactory', '~&gt; 1.0'
+</code></pre>
+
+<p>Then run <code>pod install</code> as usual.</p>
+
+<h3>Manual Installation</h3>
+
+<p>If you don't use CocoaPods, copy the *.m and *.h files from the repository root
+level, and FontAwesome.otf into your project.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/nschum">nschum</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
