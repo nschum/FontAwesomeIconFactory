@@ -6,7 +6,7 @@
 @interface FirstViewController()
 
 @property (nonatomic, strong) IBOutlet UINavigationItem *navbar;
-@property (nonatomic, strong) IBOutlet UIButton *button;
+@property (nonatomic, copy) IBOutletCollection(UIButton) NSArray *buttons;
 
 @end
 
@@ -16,7 +16,7 @@
     [super viewDidLoad];
 
     [self setupNavigationItem];
-    [self setupButton];
+    [self setupButtons];
 }
 
 - (void)setupNavigationItem {
@@ -40,11 +40,19 @@
     _navbar.rightBarButtonItem = rightItem;
 }
 
-- (void)setupButton {
+- (void)setupButtons {
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory buttonIconFactory];
-    [_button setImage:[factory createImageForIcon:NIKFontAwesomeIconBellAlt]
-             forState:UIControlStateNormal];
-    [_button setTitle:@"Your text" forState:UIControlStateNormal];
+    NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
+    for (UIButton *button in _buttons) {
+        if (icon == NIKFontAwesomeIconHeart) {
+            factory.colors = @[[UIColor redColor], [UIColor blackColor]];
+        } else {
+            factory.colors = @[[NIKColor darkGrayColor]];
+        }
+        [button setImage:[factory createImageForIcon:icon] forState:UIControlStateNormal];
+        [button setTitle:@"Hello" forState:UIControlStateNormal];
+        icon++;
+    }
 }
 
 - (void)click {
