@@ -2,7 +2,8 @@
 
 #import <CoreText/CoreText.h>
 
-static const CFStringRef FONT_NAME = (CFStringRef)@"FontAwesome";
+static NSString *const FONT_NAME = @"FontAwesome";
+static NSString *const FONT_EXTENSION = @"otf";
 
 @implementation NIKFontAwesomePathFactory
 
@@ -32,9 +33,19 @@ static const CFStringRef FONT_NAME = (CFStringRef)@"FontAwesome";
     static CTFontRef __font;
     static dispatch_once_t __onceToken;
     dispatch_once(&__onceToken, ^{
-        __font = CTFontCreateWithName(FONT_NAME, 14.0, &CGAffineTransformIdentity);
-        NSAssert(__font, @"Font Awesome not found in bundle. "
-            @"Make sure to add it to the project and Info.plist.", nil);
+        NSURL *url = [[NSBundle mainBundle] URLForResource:FONT_NAME
+                                             withExtension:FONT_EXTENSION];
+        NSAssert(url, @"Font Awesome not found in bundle.", nil);
+        CGDataProviderRef provider = CGDataProviderCreateWithURL((__bridge CFURLRef)url);
+        CGFontRef cgFont = CGFontCreateWithDataProvider(provider);
+        CTFontDescriptorRef fontDescriptor =
+            CTFontDescriptorCreateWithAttributes((__bridge CFDictionaryRef)@{});
+
+        __font = CTFontCreateWithGraphicsFont(cgFont, 0, NULL, fontDescriptor);
+
+        CFRelease(fontDescriptor);
+        CFRelease(cgFont);
+        CFRelease(provider);
     });
     return __font;
 }
