@@ -95,6 +95,23 @@ img {
   max-width:100%;
 }
 
+p.galery {
+  text-align:center;
+}
+
+img.screenshot {
+  box-shadow:5px 5px 10px rgba(0, 0, 0, .4);
+  margin:10px;
+}
+
+img.screenshot.osx {
+  max-width:80%;
+}
+
+img.screenshot.ios {
+  max-width:50%;
+}
+
 header {
   width:270px;
   float:left;
