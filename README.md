@@ -16,7 +16,7 @@ Setup
 
 Add the following to your Podfile:
 
-    pod 'FontAwesomeIconFactory', '~> 1.0'
+    pod 'FontAwesomeIconFactory'
 
 Then run `pod install` as usual.
 
