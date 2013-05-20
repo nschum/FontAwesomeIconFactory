@@ -28,6 +28,10 @@ level, and FontAwesome.otf into your project.
 Changes
 -------
 
+### 1.1 ###
+
+- Updates Font Awesome to version 3.1.1 for 54 new icons.
+
 ### 1.0.1 ###
 
 - Removes the need to modify the Info.plist.
