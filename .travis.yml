@@ -1,0 +1,16 @@
+language: objective-c
+
+env:
+  matrix:
+    - SCHEME=FontAwesomeIconFactoryDemo
+    - SCHEME=FontAwesomeIconFactoryDemoOSX
+
+before_install:
+  - brew update
+  - brew install xctool
+
+script:
+  - xctool -workspace *.xcworkspace -scheme $SCHEME -configuration Release test
+
+notifications:
+  email: false
