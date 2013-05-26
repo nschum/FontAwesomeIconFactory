@@ -9,6 +9,8 @@ http://fortawesome.github.com/Font-Awesome
 
 FontAwesomeIconFactory was created by Nikolaj Schumacher.
 
+[![Build Status](https://travis-ci.org/nschum/FontAwesomeIconFactory.png?branch=master)](https://travis-ci.org/nschum/FontAwesomeIconFactory)
+
 Setup
 -----
 
