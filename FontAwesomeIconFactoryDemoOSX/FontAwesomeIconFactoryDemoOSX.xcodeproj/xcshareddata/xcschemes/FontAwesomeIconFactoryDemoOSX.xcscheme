@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "24D1D0A9175E7485001DB168"
+               BuildableName = "FontAwesomeIconFactoryTestsOSX.octest"
+               BlueprintName = "FontAwesomeIconFactoryTestsOSX"
+               ReferencedContainer = "container:FontAwesomeIconFactoryDemoOSX.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

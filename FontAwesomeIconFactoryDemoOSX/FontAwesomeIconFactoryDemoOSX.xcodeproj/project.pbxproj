@@ -18,7 +18,21 @@
 		24CF4E8C16EA11EE00F16647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4E8B16EA11EE00F16647 /* AppDelegate.m */; };
 		24CF4E8F16EA11EF00F16647 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4E8D16EA11EF00F16647 /* MainMenu.xib */; };
 		24CF4F5716EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F5616EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m */; };
+		24D1D0AC175E7485001DB168 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D1D0AB175E7485001DB168 /* SenTestingKit.framework */; };
+		24D1D0AD175E7485001DB168 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF4E7816EA11EE00F16647 /* Cocoa.framework */; };
+		24D1D0B3175E7485001DB168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24D1D0B1175E7485001DB168 /* InfoPlist.strings */; };
+		24D1D0B6175E7485001DB168 /* FontAwesomeIconFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1D0B5175E7485001DB168 /* FontAwesomeIconFactoryTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D1D0BB175E777F001DB168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CF4E6D16EA11EE00F16647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CF4E7416EA11EE00F16647;
+			remoteInfo = FontAwesomeIconFactoryDemoOSX;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1AA10154DEA4A1A74CE135F2 /* NIKFontAwesomePathFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathFactory.m; path = ../../NIKFontAwesomePathFactory.m; sourceTree = "<group>"; };
@@ -44,6 +58,12 @@
 		24CF4E8E16EA11EF00F16647 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		24CF4F5516EA3DEF00F16647 /* NIKFontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconFactory.h; path = ../../NIKFontAwesomeIconFactory.h; sourceTree = "<group>"; };
 		24CF4F5616EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeIconFactory.m; path = ../../NIKFontAwesomeIconFactory.m; sourceTree = "<group>"; };
+		24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeIconFactoryTestsOSX.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D1D0AB175E7485001DB168 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		24D1D0B0175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryTestsOSX-Info.plist"; sourceTree = "<group>"; };
+		24D1D0B2175E7485001DB168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24D1D0B5175E7485001DB168 /* FontAwesomeIconFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FontAwesomeIconFactoryTests.m; path = ../../FontAwesomeIconFactoryTests/FontAwesomeIconFactoryTests.m; sourceTree = "<group>"; };
+		24D1D0B7175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeIconFactoryTestsOSX-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CF4E7916EA11EE00F16647 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D1D0A6175E7485001DB168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D1D0AC175E7485001DB168 /* SenTestingKit.framework in Frameworks */,
+				24D1D0AD175E7485001DB168 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				24CF4E7E16EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX */,
+				24D1D0AE175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX */,
 				24CF4E7716EA11EE00F16647 /* Frameworks */,
 				24CF4E7616EA11EE00F16647 /* Products */,
 			);
@@ -88,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				24CF4E7516EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX.app */,
+				24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				24CF4E7816EA11EE00F16647 /* Cocoa.framework */,
+				24D1D0AB175E7485001DB168 /* SenTestingKit.framework */,
 				24CF4E7A16EA11EE00F16647 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -135,6 +167,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		24D1D0AE175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX */ = {
+			isa = PBXGroup;
+			children = (
+				24D1D0B5175E7485001DB168 /* FontAwesomeIconFactoryTests.m */,
+				24D1D0AF175E7485001DB168 /* Supporting Files */,
+			);
+			path = FontAwesomeIconFactoryTestsOSX;
+			sourceTree = "<group>";
+		};
+		24D1D0AF175E7485001DB168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24D1D0B0175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX-Info.plist */,
+				24D1D0B1175E7485001DB168 /* InfoPlist.strings */,
+				24D1D0B7175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,6 +205,25 @@
 			productName = FontAwesomeIconFactoryDemoOSX;
 			productReference = 24CF4E7516EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX.app */;
 			productType = "com.apple.product-type.application";
+		};
+		24D1D0A9175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D1D0BA175E7485001DB168 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactoryTestsOSX" */;
+			buildPhases = (
+				24D1D0A5175E7485001DB168 /* Sources */,
+				24D1D0A6175E7485001DB168 /* Frameworks */,
+				24D1D0A7175E7485001DB168 /* Resources */,
+				24D1D0A8175E7485001DB168 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D1D0BC175E777F001DB168 /* PBXTargetDependency */,
+			);
+			name = FontAwesomeIconFactoryTestsOSX;
+			productName = FontAwesomeIconFactoryTestsOSX;
+			productReference = 24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -178,6 +248,7 @@
 			projectRoot = "";
 			targets = (
 				24CF4E7416EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX */,
+				24D1D0A9175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX */,
 			);
 		};
 /* End PBXProject section */
@@ -194,7 +265,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24D1D0A7175E7485001DB168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D1D0B3175E7485001DB168 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24D1D0A8175E7485001DB168 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24CF4E7116EA11EE00F16647 /* Sources */ = {
@@ -210,7 +305,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24D1D0A5175E7485001DB168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D1D0B6175E7485001DB168 /* FontAwesomeIconFactoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24D1D0BC175E777F001DB168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CF4E7416EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX */;
+			targetProxy = 24D1D0BB175E777F001DB168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		24CF4E8116EA11EE00F16647 /* InfoPlist.strings */ = {
@@ -235,6 +346,14 @@
 				24CF4E8E16EA11EF00F16647 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		24D1D0B1175E7485001DB168 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D1D0B2175E7485001DB168 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,6 +456,38 @@
 			};
 			name = Release;
 		};
+		24D1D0B8175E7485001DB168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeIconFactoryDemoOSX.app/Contents/MacOS/FontAwesomeIconFactoryDemoOSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Prefix.pch";
+				INFOPLIST_FILE = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		24D1D0B9175E7485001DB168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeIconFactoryDemoOSX.app/Contents/MacOS/FontAwesomeIconFactoryDemoOSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Prefix.pch";
+				INFOPLIST_FILE = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -357,6 +508,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		24D1D0BA175E7485001DB168 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactoryTestsOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D1D0B8175E7485001DB168 /* Debug */,
+				24D1D0B9175E7485001DB168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

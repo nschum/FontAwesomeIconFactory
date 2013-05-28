@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'FontAwesomeIconFactoryTestsOSX' target in the 'FontAwesomeIconFactoryTestsOSX' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+
+    #pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Wobjc-interface-ivars"
+    #pragma clang diagnostic ignored "-Wgnu"
+    #import <SenTestingKit/SenTestingKit.h>
+    #pragma clang diagnostic pop
+#endif
