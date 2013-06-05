@@ -5,3 +5,6 @@
 *.xcworkspace/*.pbxuser
 *.xcworkspace/*.perspective*
 xcuserdata
+
+Podfile.lock
+Pods

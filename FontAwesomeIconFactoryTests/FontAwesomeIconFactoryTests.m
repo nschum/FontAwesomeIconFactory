@@ -14,8 +14,8 @@
 
 - (void)testImagesShouldBeCreated {
     NIKImage *image = [_factory createImageForIcon:NIKFontAwesomeIconGlass];
-    STAssertTrue(image.size.width > 0.0, nil);
-    STAssertTrue(image.size.height > 0.0, nil);
+    assertThat(@(image.size.width), greaterThan(@0.0));
+    assertThat(@(image.size.height), greaterThan(@0.0));
 }
 
 @end

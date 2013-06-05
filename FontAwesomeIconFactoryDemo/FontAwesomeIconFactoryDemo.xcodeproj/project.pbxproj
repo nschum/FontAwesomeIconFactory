@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CD78D7EB1774EB1A42EE5C7 /* libPods-FontAwesomeIconFactoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8CE212ABF048F597C5A745 /* libPods-FontAwesomeIconFactoryTests.a */; };
 		1AA101AACC8ED07455CA593B /* NIKFontAwesomePathRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA105DB716DC9B5B0A21330 /* NIKFontAwesomePathRenderer.m */; };
 		1AA10210606C87E9ADE3FFFF /* NIKFontAwesomeIconFactory+iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1036749699A677C5C08E2 /* NIKFontAwesomeIconFactory+iOS.m */; };
 		1AA103C340331DA6AAF9B641 /* NIKFontAwesomePathFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10B1D960162B9B180D508 /* NIKFontAwesomePathFactory.m */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1874CFB722D64A798C9DC36A /* Pods-FontAwesomeIconFactoryTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryTests.xcconfig"; path = "../Pods/Pods-FontAwesomeIconFactoryTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		1AA1024E4AC97227BC7EA6C0 /* NIKFontAwesomeIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIcon.h; path = ../../NIKFontAwesomeIcon.h; sourceTree = "<group>"; };
 		1AA1036749699A677C5C08E2 /* NIKFontAwesomeIconFactory+iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NIKFontAwesomeIconFactory+iOS.m"; path = "../../NIKFontAwesomeIconFactory+iOS.m"; sourceTree = "<group>"; };
 		1AA10416780465E45812ED84 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		24DE5CB61752B0B00026275F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24DE5CB91752B0B00026275F /* FontAwesomeIconFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FontAwesomeIconFactoryTests.m; path = ../../FontAwesomeIconFactoryTests/FontAwesomeIconFactoryTests.m; sourceTree = "<group>"; };
 		24DE5CBB1752B0B00026275F /* FontAwesomeIconFactoryTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeIconFactoryTests-Prefix.pch"; sourceTree = "<group>"; };
+		AD8CE212ABF048F597C5A745 /* libPods-FontAwesomeIconFactoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeIconFactoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 				24DE5CAF1752B0B00026275F /* SenTestingKit.framework in Frameworks */,
 				24DE5CB01752B0B00026275F /* UIKit.framework in Frameworks */,
 				24DE5CB11752B0B00026275F /* Foundation.framework in Frameworks */,
+				0CD78D7EB1774EB1A42EE5C7 /* libPods-FontAwesomeIconFactoryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +136,7 @@
 				24DE5CB21752B0B00026275F /* FontAwesomeIconFactoryTests */,
 				24CF4F2016EA12F900F16647 /* Frameworks */,
 				24CF4F1F16EA12F900F16647 /* Products */,
+				1874CFB722D64A798C9DC36A /* Pods-FontAwesomeIconFactoryTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +157,7 @@
 				24CF4F2516EA12F900F16647 /* CoreGraphics.framework */,
 				1AA106B5450296C990FFC44C /* CoreText.framework */,
 				24DE5CAE1752B0B00026275F /* SenTestingKit.framework */,
+				AD8CE212ABF048F597C5A745 /* libPods-FontAwesomeIconFactoryTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,10 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24DE5CBE1752B0B00026275F /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactoryTests" */;
 			buildPhases = (
+				EB0BD43C35904B618271EFD6 /* Check Pods Manifest.lock */,
 				24DE5CA81752B0B00026275F /* Sources */,
 				24DE5CA91752B0B00026275F /* Frameworks */,
 				24DE5CAA1752B0B00026275F /* Resources */,
 				24DE5CAB1752B0B00026275F /* ShellScript */,
+				097A868835154D81BC376B9A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,6 +307,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		097A868835154D81BC376B9A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-FontAwesomeIconFactoryTests-resources.sh\"\n";
+		};
 		24DE5CAB1752B0B00026275F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,6 +333,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		EB0BD43C35904B618271EFD6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -475,6 +511,7 @@
 		};
 		24DE5CBC1752B0B00026275F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1874CFB722D64A798C9DC36A /* Pods-FontAwesomeIconFactoryTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeIconFactoryDemo.app/FontAwesomeIconFactoryDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -493,6 +530,7 @@
 		};
 		24DE5CBD1752B0B00026275F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1874CFB722D64A798C9DC36A /* Pods-FontAwesomeIconFactoryTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeIconFactoryDemo.app/FontAwesomeIconFactoryDemo";
 				FRAMEWORK_SEARCH_PATHS = (

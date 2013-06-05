@@ -10,5 +10,9 @@
     #pragma clang diagnostic ignored "-Wobjc-interface-ivars"
     #pragma clang diagnostic ignored "-Wgnu"
     #import <SenTestingKit/SenTestingKit.h>
+
+    #define HC_SHORTHAND
+    #import <OCHamcrest/OCHamcrest.h>
     #pragma clang diagnostic pop
+
 #endif
