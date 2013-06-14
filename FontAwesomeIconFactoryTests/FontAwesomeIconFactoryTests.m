@@ -1,5 +1,7 @@
 #import "NIKFontAwesomeIconFactory.h"
 
+static const float EPSILON = 0.0001;
+
 @interface FontAwesomeIconFactoryTests : SenTestCase
 @end
 
@@ -48,6 +50,18 @@
         NIKImage *insetImage = [insetFactory createImageForIcon:icon];
         assertThatDouble(insetImage.size.height, equalToDouble(image.size.height + 6.0));
         assertThatDouble(insetImage.size.width, equalToDouble(image.size.width + 10.0));
+    }
+}
+
+- (void)testImagesShouldNotExceedSize {
+    float size = 24.0;
+    _factory.size = size;
+    for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
+         icon <= NIKFontAwesomeIconFolderOpenAlt;
+         icon++) {
+
+        NIKImage *image = [_factory createImageForIcon:icon];
+        assertThat(@(image.size.height), lessThanOrEqualTo(@(size + EPSILON)));
     }
 }
 

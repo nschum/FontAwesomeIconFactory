@@ -24,8 +24,9 @@ static NSString *const FONT_EXTENSION = @"otf";
 
 - (CGPathRef)createPathForIcon:(NIKFontAwesomeIcon)icon height:(CGFloat)height CF_RETURNS_RETAINED {
     CTFontRef font = [self font];
-    CGFloat ascent = CTFontGetAscent(font);
-    CGAffineTransform scale = CGAffineTransformMakeScale(height / ascent, height / ascent);
+    CGFloat fontHeight = CTFontGetSize(font);
+    CGAffineTransform scale = CGAffineTransformMakeScale(height / fontHeight,
+                                                         height / fontHeight);
     return CTFontCreatePathForGlyph(font, [self glyphForIcon:icon], &scale);
 }
 
