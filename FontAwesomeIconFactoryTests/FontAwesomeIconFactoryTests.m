@@ -18,4 +18,16 @@
     assertThat(@(image.size.height), greaterThan(@0.0));
 }
 
+- (void)testImagesShouldBeSquare {
+    _factory.square = YES;
+
+    for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
+         icon <= NIKFontAwesomeIconFolderOpenAlt;
+         icon++) {
+
+        NIKImage *image = [_factory createImageForIcon:icon];
+        assertThatDouble(image.size.height, equalToDouble(image.size.width));
+    }
+}
+
 @end
