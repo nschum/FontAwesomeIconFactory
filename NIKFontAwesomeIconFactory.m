@@ -58,6 +58,9 @@ typedef NSBezierPath NIKBezierPath;
     CGRect bounds = CGPathGetBoundingBox(path);
     CGPoint offset = CGPointZero;
 
+    bounds.size.width = ceil(bounds.size.width);
+    bounds.size.height = ceil(bounds.size.height);
+
     if (_square) {
         CGFloat diff = bounds.size.height - bounds.size.width;
         if (diff > 0) {
