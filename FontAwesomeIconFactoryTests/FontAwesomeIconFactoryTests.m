@@ -22,7 +22,7 @@
     _factory.square = YES;
 
     for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
-         icon <= NIKFontAwesomeIconFolderOpenAlt;
+         icon <= NIKFontAwesomeIconRenren;
          icon++) {
 
         NIKImage *image = [_factory createImageForIcon:icon];
@@ -35,7 +35,7 @@
     insetFactory.edgeInsets = (NIKEdgeInsets){1.0, 3.0, 5.0, 7.0};
 
     for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
-         icon <= NIKFontAwesomeIconFolderOpenAlt;
+         icon <= NIKFontAwesomeIconRenren;
          icon++) {
 
         NIKImage *image = [_factory createImageForIcon:icon];
