@@ -18,6 +18,12 @@
     assertThat(@(image.size.height), greaterThan(@0.0));
 }
 
+- (void)testNonExistentImageShouldStillBeCreated {
+    NIKImage *image = [_factory createImageForIcon:(NIKFontAwesomeIcon)0];
+    assertThat(@(image.size.width), greaterThan(@0.0));
+    assertThat(@(image.size.height), greaterThan(@0.0));
+}
+
 - (void)testImagesShouldBeSquare {
     _factory.square = YES;
 
