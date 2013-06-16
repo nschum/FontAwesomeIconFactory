@@ -56,36 +56,45 @@ typedef NSBezierPath NIKBezierPath;
 
 - (NIKImage *)createImageWithPath:(CGPathRef)path {
     CGRect bounds = CGPathGetBoundingBox(path);
+    CGSize imageSize = bounds.size;
     CGPoint offset = CGPointZero;
 
-    bounds.size.width = ceil(bounds.size.width);
-    bounds.size.height = ceil(bounds.size.height);
+    if (_padded) {
+        imageSize.height = _size;
+    } else {
+        // remove padding
+        offset.x = -bounds.origin.x;
+        offset.y = -bounds.origin.y;
+    }
+
+    imageSize.width = ceil(imageSize.width);
+    imageSize.height = ceil(imageSize.height);
 
     if (_square) {
-        CGFloat diff = bounds.size.height - bounds.size.width;
+        CGFloat diff = imageSize.height - imageSize.width;
         if (diff > 0) {
             offset.x += .5 * diff;
-            bounds.size.width = bounds.size.height;
+            imageSize.width = imageSize.height;
         } else {
             offset.y += .5 * -diff;
-            bounds.size.height = bounds.size.width;
+            imageSize.height = imageSize.width;
         }
     };
 
     CGFloat padding = _strokeWidth * .5;
     offset.x += padding + _edgeInsets.left;
     offset.y += padding + _edgeInsets.bottom;
-    bounds.size.width += 2.0 * padding + _edgeInsets.left + _edgeInsets.right;
-    bounds.size.height += 2.0 * padding + _edgeInsets.top + _edgeInsets.bottom;
+    imageSize.width += 2.0 * padding + _edgeInsets.left + _edgeInsets.right;
+    imageSize.height += 2.0 * padding + _edgeInsets.top + _edgeInsets.bottom;
 
     NIKFontAwesomePathRenderer *renderer = [self createRenderer:path];
     renderer.offset = offset;
 
 #if TARGET_OS_IPHONE
-    UIGraphicsBeginImageContextWithOptions(bounds.size, NO, 0.0);
+    UIGraphicsBeginImageContextWithOptions(imageSize, NO, 0.0);
 
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextTranslateCTM(context, 0, bounds.size.height);
+    CGContextTranslateCTM(context, 0, imageSize.height);
     CGContextScaleCTM(context, 1.0, -1.0);
     [renderer renderInContext:context];
 
@@ -97,7 +106,7 @@ typedef NSBezierPath NIKBezierPath;
 #else
 
     if ([NSImage respondsToSelector:@selector(imageWithSize:flipped:drawingHandler:)]) {
-        return [NSImage imageWithSize:bounds.size
+        return [NSImage imageWithSize:imageSize
                               flipped:NO
                        drawingHandler:^(CGRect rect) {
                            NSGraphicsContext *graphicsContext = [NSGraphicsContext currentContext];
@@ -105,7 +114,7 @@ typedef NSBezierPath NIKBezierPath;
                            return YES;
                        }];
     } else {
-        NSImage *image = [[NSImage alloc] initWithSize:bounds.size];
+        NSImage *image = [[NSImage alloc] initWithSize:imageSize];
         [image lockFocus];
         NSGraphicsContext *graphicsContext = [NSGraphicsContext currentContext];
         [renderer renderInContext:[graphicsContext graphicsPort]];

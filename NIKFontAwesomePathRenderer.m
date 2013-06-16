@@ -27,7 +27,7 @@
 
     CGRect bounds = CGPathGetBoundingBox(_path);
 
-    CGContextTranslateCTM(context, _offset.x - bounds.origin.x, _offset.y - bounds.origin.y);
+    CGContextTranslateCTM(context, _offset.x, _offset.y);
 
     CGContextAddPath(context, _path);
     if (_colors.count > 1) {

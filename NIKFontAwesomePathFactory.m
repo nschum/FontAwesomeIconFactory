@@ -27,7 +27,8 @@ static NSString *const FONT_EXTENSION = @"otf";
     CGFloat fontHeight = CTFontGetSize(font);
     CGAffineTransform scale = CGAffineTransformMakeScale(height / fontHeight,
                                                          height / fontHeight);
-    return CTFontCreatePathForGlyph(font, [self glyphForIcon:icon], &scale);
+    CGAffineTransform transform = CGAffineTransformTranslate(scale, 0, CTFontGetDescent(font));
+    return CTFontCreatePathForGlyph(font, [self glyphForIcon:icon], &transform);
 }
 
 - (CTFontRef)font {

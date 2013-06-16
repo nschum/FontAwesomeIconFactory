@@ -65,4 +65,17 @@ static const float EPSILON = 0.0001;
     }
 }
 
+- (void)testPaddedImagesShouldMatchSize {
+    float size = 24.0;
+    _factory.size = size;
+    _factory.padded = YES;
+    for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
+         icon <= NIKFontAwesomeIconFolderOpenAlt;
+         icon++) {
+
+        NIKImage *image = [_factory createImageForIcon:icon];
+        assertThatDouble(image.size.height, closeTo(size, EPSILON));
+    }
+}
+
 @end
