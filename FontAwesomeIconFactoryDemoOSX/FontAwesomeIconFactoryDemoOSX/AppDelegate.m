@@ -64,7 +64,7 @@
 
 
     for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
-         icon <= NIKFontAwesomeIconFolderOpenAlt;
+         icon <= NIKFontAwesomeIconRenren;
          icon++) {
 
         NSString *identifier = [NSString stringWithFormat:@"%d", icon];
