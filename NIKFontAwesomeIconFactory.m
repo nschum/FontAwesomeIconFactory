@@ -17,6 +17,7 @@ typedef NSBezierPath NIKBezierPath;
     self = [super init];
     if (self) {
         _size = 32.0;
+        _padded = YES;
         _colors = @[[NIKColor darkGrayColor]];
         _strokeColor = [NIKColor blackColor];
         _strokeWidth = 0.0;

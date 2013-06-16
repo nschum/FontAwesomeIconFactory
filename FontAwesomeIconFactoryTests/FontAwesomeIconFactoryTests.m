@@ -14,6 +14,10 @@ static const float EPSILON = 0.0001;
     _factory = [NIKFontAwesomeIconFactory new];
 }
 
+- (void)testPaddedShouldBeDefault {
+    assertThatBool(_factory.padded, equalToBool(YES));
+}
+
 - (void)testImagesShouldBeCreated {
     NIKImage *image = [_factory createImageForIcon:NIKFontAwesomeIconGlass];
     assertThat(@(image.size.width), greaterThan(@0.0));
@@ -28,6 +32,7 @@ static const float EPSILON = 0.0001;
 
 - (void)testImagesShouldBeSquare {
     _factory.square = YES;
+    _factory.padded = NO;
 
     for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
          icon <= NIKFontAwesomeIconRenren;
@@ -56,6 +61,8 @@ static const float EPSILON = 0.0001;
 - (void)testImagesShouldNotExceedSize {
     float size = 24.0;
     _factory.size = size;
+    _factory.padded = NO;
+
     for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
          icon <= NIKFontAwesomeIconFolderOpenAlt;
          icon++) {
@@ -69,6 +76,7 @@ static const float EPSILON = 0.0001;
     float size = 24.0;
     _factory.size = size;
     _factory.padded = YES;
+
     for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
          icon <= NIKFontAwesomeIconFolderOpenAlt;
          icon++) {
