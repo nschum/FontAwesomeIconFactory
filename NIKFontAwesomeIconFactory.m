@@ -68,8 +68,7 @@ typedef NSBezierPath NIKBezierPath;
         offset.y = -bounds.origin.y;
     }
 
-    imageSize.width = ceil(imageSize.width);
-    imageSize.height = ceil(imageSize.height);
+    imageSize = [self roundImageSize:imageSize];
 
     if (_square) {
         CGFloat diff = imageSize.height - imageSize.width;
@@ -123,6 +122,12 @@ typedef NSBezierPath NIKBezierPath;
         return image;
     }
 #endif
+}
+
+- (CGSize)roundImageSize:(CGSize)size {
+    // Prevent +1 on values that are slightly too big (e.g. 24.000001).
+    static const float EPSILON = 0.01;
+    return CGSizeMake(ceil(size.width - EPSILON), ceil(size.height - EPSILON));
 }
 
 - (NIKFontAwesomePathRenderer *)createRenderer:(CGPathRef)path {

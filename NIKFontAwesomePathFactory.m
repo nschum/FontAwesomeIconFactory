@@ -14,7 +14,7 @@ static NSString *const FONT_EXTENSION = @"otf";
     CGPathRef path = [self createPathForIcon:icon height:height];
     CGRect bounds = CGPathGetBoundingBox(path);
     if (bounds.size.width > width) {
-        CGPathRef scaledPath = [self createScaledPath:path scale:bounds.size.width / width];
+        CGPathRef scaledPath = [self createScaledPath:path scale:width / bounds.size.width];
         CGPathRelease(path);
         return scaledPath;
     } else {
