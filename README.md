@@ -30,6 +30,14 @@ level, and FontAwesome.otf into your project.
 Changes
 -------
 
+### 1.2 ###
+
+- Updates Font Awesome to version 3.2 for new and changed icons.
+- The images now actually have the exact height (and width if `square` is set)
+  specified in the `size` property. Get the old behavior (where the image is
+  only as high as needed) by setting `padded` to `NO`. The predefined factories
+  have been adjusted in size.
+
 ### 1.1 ###
 
 - Updates Font Awesome to version 3.1.1 for 54 new icons.
