@@ -6,7 +6,7 @@
 
 + (instancetype)buttonIconFactory {
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory new];
-    factory.size = 14.0;
+    factory.size = 16.0;
     factory.edgeInsets = UIEdgeInsetsMake(0, 0, 0, 8.0);
     return factory;
 }
@@ -14,13 +14,13 @@
 + (instancetype)barButtonItemIconFactory {
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory new];
     factory.colors = @[[UIColor whiteColor]];
-    factory.size = 20.0;
+    factory.size = 22.0;
     return factory;
 }
 
 + (instancetype)tabBarItemIconFactory {
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory new];
-    factory.size = 20.0;
+    factory.size = 24.0;
     factory.edgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
     return factory;
 }

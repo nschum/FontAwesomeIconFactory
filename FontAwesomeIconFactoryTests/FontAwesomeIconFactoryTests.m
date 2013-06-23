@@ -1,5 +1,7 @@
 #import "NIKFontAwesomeIconFactory.h"
 
+static const float EPSILON = 0.0001;
+
 @interface FontAwesomeIconFactoryTests : SenTestCase
 @end
 
@@ -10,6 +12,10 @@
 - (void)setUp {
     [super setUp];
     _factory = [NIKFontAwesomeIconFactory new];
+}
+
+- (void)testPaddedShouldBeDefault {
+    assertThatBool(_factory.padded, equalToBool(YES));
 }
 
 - (void)testImagesShouldBeCreated {
@@ -26,6 +32,7 @@
 
 - (void)testImagesShouldBeSquare {
     _factory.square = YES;
+    _factory.padded = NO;
 
     for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
          icon <= NIKFontAwesomeIconRenren;
@@ -48,6 +55,49 @@
         NIKImage *insetImage = [insetFactory createImageForIcon:icon];
         assertThatDouble(insetImage.size.height, equalToDouble(image.size.height + 6.0));
         assertThatDouble(insetImage.size.width, equalToDouble(image.size.width + 10.0));
+    }
+}
+
+- (void)testImagesShouldNotExceedSize {
+    float size = 24.0;
+    _factory.size = size;
+    _factory.padded = NO;
+
+    for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
+         icon <= NIKFontAwesomeIconFolderOpenAlt;
+         icon++) {
+
+        NIKImage *image = [_factory createImageForIcon:icon];
+        assertThat(@(image.size.height), lessThanOrEqualTo(@(size + EPSILON)));
+    }
+}
+
+- (void)testPaddedImagesShouldMatchSize {
+    float size = 24.0;
+    _factory.size = size;
+    _factory.padded = YES;
+
+    for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
+         icon <= NIKFontAwesomeIconFolderOpenAlt;
+         icon++) {
+
+        NIKImage *image = [_factory createImageForIcon:icon];
+        assertThatDouble(image.size.height, closeTo(size, EPSILON));
+    }
+}
+
+- (void)testPaddedSquareImagesShouldMatchSize {
+    float size = 24.0;
+    _factory.size = size;
+    _factory.square = YES;
+
+    for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
+         icon <= NIKFontAwesomeIconRenren;
+         icon++) {
+
+        NIKImage *image = [_factory createImageForIcon:icon];
+        assertThatDouble(image.size.width, closeTo(size, EPSILON));
+        assertThatDouble(image.size.height, closeTo(size, EPSILON));
     }
 }
 

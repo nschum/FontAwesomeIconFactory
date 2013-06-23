@@ -14,7 +14,7 @@ static NSString *const FONT_EXTENSION = @"otf";
     CGPathRef path = [self createPathForIcon:icon height:height];
     CGRect bounds = CGPathGetBoundingBox(path);
     if (bounds.size.width > width) {
-        CGPathRef scaledPath = [self createScaledPath:path scale:bounds.size.width / width];
+        CGPathRef scaledPath = [self createScaledPath:path scale:width / bounds.size.width];
         CGPathRelease(path);
         return scaledPath;
     } else {
@@ -24,9 +24,11 @@ static NSString *const FONT_EXTENSION = @"otf";
 
 - (CGPathRef)createPathForIcon:(NIKFontAwesomeIcon)icon height:(CGFloat)height CF_RETURNS_RETAINED {
     CTFontRef font = [self font];
-    CGFloat ascent = CTFontGetAscent(font);
-    CGAffineTransform scale = CGAffineTransformMakeScale(height / ascent, height / ascent);
-    return CTFontCreatePathForGlyph(font, [self glyphForIcon:icon], &scale);
+    CGFloat fontHeight = CTFontGetSize(font);
+    CGAffineTransform scale = CGAffineTransformMakeScale(height / fontHeight,
+                                                         height / fontHeight);
+    CGAffineTransform transform = CGAffineTransformTranslate(scale, 0, CTFontGetDescent(font));
+    return CTFontCreatePathForGlyph(font, [self glyphForIcon:icon], &transform);
 }
 
 - (CTFontRef)font {

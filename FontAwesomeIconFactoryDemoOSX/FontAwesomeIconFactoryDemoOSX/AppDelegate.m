@@ -38,11 +38,11 @@
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory pushButtonIconFactory];
     _pushButtonLeft.image = [factory createImageForIcon:NIKFontAwesomeIconFacetimeVideo];
 
-    factory.edgeInsets = NSEdgeInsetsMake(2.0, 0.0, 0, 0.0);
+    factory.edgeInsets = NSEdgeInsetsMake(0.0, 0.0, 2.0, 0.0);
     _pushButtonCenter.image = [factory createImageForIcon:NIKFontAwesomeIconRss];
 
-    factory.edgeInsets = NSEdgeInsetsMake(2.0, 0.0, 0, 10.0);
     _pushButtonRight.image = [factory createImageForIcon:NIKFontAwesomeIconRefresh];
+    factory.edgeInsets = NSEdgeInsetsMake(0.0, 0.0, 2.0, 8.0);
 }
 
 #pragma mark - NSToolbarDelegate

@@ -26,6 +26,7 @@ typedef NSImage NIKImage;
 /** Additional padding added to the created images. */
 @property (nonatomic, assign) NIKEdgeInsets edgeInsets;
 
+@property (nonatomic, assign, getter=isPadded) BOOL padded;
 /**
  * Create images to be square?
  *
