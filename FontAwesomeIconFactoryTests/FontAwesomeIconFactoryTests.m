@@ -58,6 +58,20 @@ static const float EPSILON = 0.0001;
     }
 }
 
+- (void)testStrokeShouldNotIncreaseImageHeight {
+    NIKFontAwesomeIconFactory *strokeFactory = [_factory copy];
+    strokeFactory.strokeWidth = 5.0;
+
+    for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
+         icon <= NIKFontAwesomeIconRenren;
+         icon++) {
+
+        NIKImage *image = [_factory createImageForIcon:icon];
+        NIKImage *strokeImage = [strokeFactory createImageForIcon:icon];
+        assertThatDouble(strokeImage.size.height, equalToDouble(image.size.height));
+    }
+}
+
 - (void)testImagesShouldNotExceedSize {
     float size = 24.0;
     _factory.size = size;

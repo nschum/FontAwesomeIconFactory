@@ -51,8 +51,11 @@ typedef NSBezierPath NIKBezierPath;
 }
 
 - (CGPathRef)createPath:(NIKFontAwesomeIcon)icon CF_RETURNS_RETAINED {
-    CGFloat width = _square ? _size : CGFLOAT_MAX;
-    return [[NIKFontAwesomePathFactory new] createPathForIcon:icon height:_size maxWidth:width];
+    CGFloat paddedSize = _size - _strokeWidth;
+    CGFloat width = _square ? paddedSize : CGFLOAT_MAX;
+    return [[NIKFontAwesomePathFactory new] createPathForIcon:icon
+                                                       height:paddedSize
+                                                     maxWidth:width];
 }
 
 - (NIKImage *)createImageWithPath:(CGPathRef)path {
@@ -62,6 +65,7 @@ typedef NSBezierPath NIKBezierPath;
 
     if (_padded) {
         imageSize.height = _size;
+        imageSize.width += _strokeWidth;
     } else {
         // remove padding
         offset.x = -bounds.origin.x;
@@ -84,8 +88,8 @@ typedef NSBezierPath NIKBezierPath;
     CGFloat padding = _strokeWidth * .5;
     offset.x += padding + _edgeInsets.left;
     offset.y += padding + _edgeInsets.bottom;
-    imageSize.width += 2.0 * padding + _edgeInsets.left + _edgeInsets.right;
-    imageSize.height += 2.0 * padding + _edgeInsets.top + _edgeInsets.bottom;
+    imageSize.width += _edgeInsets.left + _edgeInsets.right;
+    imageSize.height += _edgeInsets.top + _edgeInsets.bottom;
 
     NIKFontAwesomePathRenderer *renderer = [self createRenderer:path];
     renderer.offset = offset;
