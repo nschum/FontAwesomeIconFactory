@@ -45,12 +45,17 @@
     NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
     for (UIButton *button in _buttons) {
         if (icon == NIKFontAwesomeIconHeart) {
-            factory.colors = @[[UIColor redColor], [UIColor blackColor]];
+            NIKFontAwesomeIconFactory *textlessButtonFactory =
+                [NIKFontAwesomeIconFactory textlessButtonIconFactory];
+            textlessButtonFactory.colors = @[[UIColor redColor], [UIColor blackColor]];
+            [button setImage:[textlessButtonFactory createImageForIcon:icon]
+                    forState:UIControlStateNormal];
+            [button setTitle:@"" forState:UIControlStateNormal];
         } else {
             factory.colors = @[[NIKColor darkGrayColor]];
+            [button setImage:[factory createImageForIcon:icon] forState:UIControlStateNormal];
+            [button setTitle:@"Hello" forState:UIControlStateNormal];
         }
-        [button setImage:[factory createImageForIcon:icon] forState:UIControlStateNormal];
-        [button setTitle:@"Hello" forState:UIControlStateNormal];
         icon++;
     }
 }

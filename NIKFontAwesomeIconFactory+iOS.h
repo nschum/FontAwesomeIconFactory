@@ -6,6 +6,7 @@
 @interface NIKFontAwesomeIconFactory(iOS)
 
 + (instancetype)buttonIconFactory;
++ (instancetype)textlessButtonIconFactory;
 + (instancetype)barButtonItemIconFactory;
 + (instancetype)tabBarItemIconFactory;
 
