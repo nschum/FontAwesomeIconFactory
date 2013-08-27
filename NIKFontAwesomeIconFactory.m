@@ -4,10 +4,8 @@
 #import "NIKFontAwesomePathRenderer.h"
 
 #if TARGET_OS_IPHONE
-typedef UIFont NIKFont;
 typedef UIBezierPath NIKBezierPath;
 #else
-typedef NSFont NIKFont;
 typedef NSBezierPath NIKBezierPath;
 #endif
 
@@ -23,10 +21,6 @@ typedef NSBezierPath NIKBezierPath;
         _strokeWidth = 0.0;
     }
     return self;
-}
-
-- (NIKFont *)createFont {
-    return [NIKFont fontWithName:@"FontAwesome" size:14.0];
 }
 
 #pragma mark - copy
