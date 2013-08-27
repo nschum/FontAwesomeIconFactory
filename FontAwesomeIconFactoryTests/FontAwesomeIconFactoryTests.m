@@ -115,4 +115,16 @@ static const float EPSILON = 0.0001;
     }
 }
 
+#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+- (void)testRenderingModeShouldBeAutomaticByDefault {
+    assertThat(@(_factory.renderingMode), equalTo(@(UIImageRenderingModeAutomatic)));
+}
+
+- (void)testShouldReturnImageWithRenderingMode {
+    _factory.renderingMode = UIImageRenderingModeAlwaysOriginal;
+    NIKImage *image = [_factory createImageForIcon:NIKFontAwesomeIconGlass];
+    assertThat(@(image.renderingMode), equalTo(@(UIImageRenderingModeAlwaysOriginal)));
+}
+#endif
+
 @end

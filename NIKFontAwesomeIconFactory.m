@@ -105,6 +105,14 @@ typedef NSBezierPath NIKBezierPath;
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
 
     UIGraphicsEndImageContext();
+
+#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+    if ([image respondsToSelector:@selector(renderingMode)]) {
+        if (image.renderingMode != _renderingMode) {
+            image = [image imageWithRenderingMode:_renderingMode];
+        }
+    }
+#endif
     return image;
 
 #else

@@ -58,6 +58,18 @@ typedef NSImage NIKImage;
  */
 @property (nonatomic, assign) CGFloat strokeWidth;
 
+#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+/**
+ * Rendering mode for the created images.
+ *
+ * By default, iOS will determine if color information is retained when using the image in a
+ * control.  Set this to UIImageRenderingModeAlwaysOriginal to always get color.
+ *
+ * Default: UIImageRenderingModeAutomatic
+ */
+@property(nonatomic, assign) UIImageRenderingMode renderingMode NS_AVAILABLE_IOS(7_0);
+#endif
+
 /** Create an NSImage/UIImage from an icon. */
 - (NIKImage *)createImageForIcon:(NIKFontAwesomeIcon)icon;
 
