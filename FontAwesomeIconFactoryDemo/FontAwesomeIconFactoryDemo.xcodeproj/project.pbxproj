@@ -447,6 +447,7 @@
 				WARNING_CFLAGS = (
 					"-Wno-objc-missing-property-synthesis",
 					"-Wno-direct-ivar-access",
+					"-Wno-vla",
 					"-Weverything",
 				);
 			};
@@ -480,6 +481,7 @@
 				WARNING_CFLAGS = (
 					"-Wno-objc-missing-property-synthesis",
 					"-Wno-direct-ivar-access",
+					"-Wno-vla",
 					"-Weverything",
 				);
 			};
