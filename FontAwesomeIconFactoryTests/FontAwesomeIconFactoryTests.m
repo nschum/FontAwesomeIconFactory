@@ -82,12 +82,8 @@ static const float EPSILON = 0.0001;
     _factory.size = size;
     _factory.padded = NO;
 
-    [self eachIcon:^(NIKFontAwesomeIcon icon) {
-        NIKImage *image = [self.factory createImageForIcon:icon];
-        // These two are two big for some reason.
-        if (icon != NIKFontAwesomeIconSun && icon != NIKFontAwesomeIconLinux) {
-            assertThat(@(image.size.height), lessThanOrEqualTo(@(size + EPSILON)));
-        }
+    [self eachImage:^(NIKImage *image) {
+        assertThat(@(image.size.height), lessThanOrEqualTo(@(size + EPSILON)));
     }];
 }
 

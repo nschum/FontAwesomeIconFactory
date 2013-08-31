@@ -64,6 +64,10 @@ typedef NSBezierPath NIKBezierPath;
         // remove padding
         offset.x = -bounds.origin.x;
         offset.y = -bounds.origin.y;
+        if (imageSize.height > _size) {
+            // NIKFontAwesomeIconSun and NIKFontAwesomeIconLinux
+            imageSize.height = _size;
+        }
     }
 
     imageSize = [self roundImageSize:imageSize];
