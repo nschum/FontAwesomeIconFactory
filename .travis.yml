@@ -6,7 +6,7 @@ env:
     - SCHEME=FontAwesomeIconFactoryDemoOSX
 
 script:
-  - xctool -workspace *.xcworkspace -scheme $SCHEME build test CODE_SIGN_IDENTITY="" ONLY_ACTIVE_ARCH=NO
+  - xctool -workspace *.xcworkspace -scheme $SCHEME build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
 
 notifications:
   email: false
