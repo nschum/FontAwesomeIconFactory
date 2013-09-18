@@ -5,10 +5,6 @@ env:
     - SCHEME=FontAwesomeIconFactoryDemo
     - SCHEME=FontAwesomeIconFactoryDemoOSX
 
-before_install:
-  - brew update
-  - brew install xctool
-
 script:
   - xctool -workspace *.xcworkspace -scheme $SCHEME build test CODE_SIGN_IDENTITY="" ONLY_ACTIVE_ARCH=NO
 
