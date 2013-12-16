@@ -29,14 +29,14 @@
 - (void)setupBevelButton {
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory bevelButtonIconFactory];
     _bevelButtonLeft.image = [factory createImageForIcon:NIKFontAwesomeIconBookmark];
-    _bevelButtonCenter.image = [factory createImageForIcon:NIKFontAwesomeIconPicture];
+    _bevelButtonCenter.image = [factory createImageForIcon:NIKFontAwesomeIconPictureO];
     _bevelButtonRight.image = [factory createImageForIcon:NIKFontAwesomeIconCheck];
     _bevelButtonMultiline.image = [factory createImageForIcon:NIKFontAwesomeIconComments];
 }
 
 - (void)setupPushButton {
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory pushButtonIconFactory];
-    _pushButtonLeft.image = [factory createImageForIcon:NIKFontAwesomeIconFacetimeVideo];
+    _pushButtonLeft.image = [factory createImageForIcon:NIKFontAwesomeIconVideoCamera];
 
     factory.edgeInsets = NSEdgeInsetsMake(0.0, 0.0, 2.0, 0.0);
     _pushButtonCenter.image = [factory createImageForIcon:NIKFontAwesomeIconRss];

@@ -4,6 +4,7 @@ static const float EPSILON = 0.0001;
 
 @interface FontAwesomeIconFactoryTests : SenTestCase
 @property (nonatomic, strong) NIKFontAwesomeIconFactory *factory;
+@property (nonatomic, strong) NSSet *gaps;
 @end
 
 @implementation FontAwesomeIconFactoryTests
@@ -11,13 +12,16 @@ static const float EPSILON = 0.0001;
 - (void)setUp {
     [super setUp];
     _factory = [NIKFontAwesomeIconFactory new];
+    _gaps = [[NSSet alloc] initWithObjects:@0xf116, @0xf117, nil];
 }
 
 - (void)eachIcon:(void (^)(NIKFontAwesomeIcon))iterator {
     for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
-         icon <= NIKFontAwesomeIconRenren;
+         icon <= NIKFontAwesomeIconPlusSquareO;
          icon++) {
-        iterator(icon);
+        if (![_gaps containsObject:@(icon)]) {
+            iterator(icon);
+        }
     }
 }
 
@@ -61,6 +65,9 @@ static const float EPSILON = 0.0001;
     [self eachIcon:^(NIKFontAwesomeIcon icon) {
         NIKImage *image = [self.factory createImageForIcon:icon];
         NIKImage *insetImage = [insetFactory createImageForIcon:icon];
+        if (image.size.height < 0.0005) {
+            assertThatDouble(insetImage.size.height, equalToDouble(image.size.height + 6.0));
+        }
         assertThatDouble(insetImage.size.height, equalToDouble(image.size.height + 6.0));
         assertThatDouble(insetImage.size.width, equalToDouble(image.size.width + 10.0));
     }];
