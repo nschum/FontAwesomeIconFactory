@@ -1,12 +1,16 @@
 language: objective-c
 
+before_install:
+  - gem install cocoapods
+  - brew update && brew upgrade xctool
+
 env:
   matrix:
     - SCHEME=FontAwesomeIconFactoryDemo SDK=iphonesimulator
     - SCHEME=FontAwesomeIconFactoryDemoOSX SDK=macosx
 
 script:
-  - xctool -workspace *.xcworkspace -sdk $SDK -scheme $SCHEME build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+  - xctool -workspace *.xcworkspace -sdk $SDK -scheme $SCHEME build test -freshSimulator -freshInstall CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
 
 notifications:
   email: false
