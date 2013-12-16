@@ -1,7 +1,8 @@
-#!/opt/local/bin/python
+#!/usr/bin/env python
 # coding: utf-8
 # -*- coding: utf-8 -*-
 # # vim: set fileencoding=utf-8 :
+
 import re
 head = "typedef enum NIKFontAwesomeIcon : UniChar {\n"
 code = "    NIKFontAwesomeIcon{} = 0x{},\n"
