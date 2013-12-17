@@ -120,6 +120,25 @@ static const float EPSILON = 0.0001;
     assertThat(@(_factory.renderingMode), equalTo(@(UIImageRenderingModeAutomatic)));
 }
 
+- (void)testRenderingModeShouldBeOriginalAfterSettingColor {
+    NSArray *colors = @[[UIColor redColor]];
+
+    _factory.colors = colors;
+
+    assertThat(_factory.colors, equalTo(colors));
+    assertThat(@(_factory.renderingMode), equalTo(@(UIImageRenderingModeAlwaysOriginal)));
+}
+
+- (void)testRenderingModeShouldNotChangeAfterSettingItToNotAutomatic {
+    NSArray *colors = @[[UIColor redColor]];
+    _factory.renderingMode = UIImageRenderingModeAlwaysTemplate;
+
+    _factory.colors = colors;
+
+    assertThat(_factory.colors, equalTo(colors));
+    assertThat(@(_factory.renderingMode), equalTo(@(UIImageRenderingModeAlwaysTemplate)));
+}
+
 - (void)testShouldReturnImageWithRenderingMode {
     _factory.renderingMode = UIImageRenderingModeAlwaysOriginal;
     NIKImage *image = [_factory createImageForIcon:NIKFontAwesomeIconGlass];

@@ -23,6 +23,15 @@ typedef NSBezierPath NIKBezierPath;
     return self;
 }
 
+- (void)setColors:(NSArray *)colors {
+    _colors = [colors copy];
+#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+    if (self.renderingMode == UIImageRenderingModeAutomatic) {
+        self.renderingMode = UIImageRenderingModeAlwaysOriginal;
+    }
+#endif
+}
+
 #pragma mark - copy
 
 - (id)copyWithZone:(NSZone *)zone {
