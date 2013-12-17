@@ -30,6 +30,16 @@ level, and FontAwesome.otf into your project.
 Changes
 -------
 
+### 1.3 ###
+
+- Updates Font Awesome to version 4.0.3 for new and changed icons.
+- On iOS 7 `renderingMode` is now adjusted automatically when setting a color.
+
+### 1.2.1 ###
+
+- Updates Font Awesome to version 3.2.1.
+- Butter support for iOS 7 by allowing to override `renderingMode`.
+
 ### 1.2 ###
 
 - Updates Font Awesome to version 3.2 for new and changed icons.
