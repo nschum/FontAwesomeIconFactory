@@ -27,6 +27,8 @@ Then run `pod install` as usual.
 If you don't use CocoaPods, copy the *.m and *.h files from the repository root
 level, and FontAwesome.otf into your project.
 
+The font is included as a submodule. So remember to run `git submodule update --init` if you clone this repository.
+
 Changes
 -------
 
