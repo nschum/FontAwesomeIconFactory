@@ -10,7 +10,7 @@ env:
     - SCHEME=FontAwesomeIconFactoryDemoOSX SDK=macosx
 
 script:
-  - xctool -workspace *.xcworkspace -sdk $SDK -scheme $SCHEME build test -freshSimulator -freshInstall CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+  - xctool -workspace *.xcworkspace -sdk $SDK -scheme $SCHEME build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
 
 notifications:
   email: false
