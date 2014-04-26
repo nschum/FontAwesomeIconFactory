@@ -1,8 +1,7 @@
 language: objective-c
 
 before_install:
-  - gem install cocoapods
-  - brew update && brew upgrade xctool
+  - gem install cocoapods xcpretty
 
 env:
   matrix:
@@ -10,7 +9,7 @@ env:
     - SCHEME=FontAwesomeIconFactoryDemoOSX SDK=macosx
 
 script:
-  - xctool -workspace *.xcworkspace -sdk $SDK -scheme $SCHEME build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+  - set -o pipefail; xcodebuild -workspace *.xcworkspace -sdk $SDK -scheme $SCHEME build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO | xcpretty -c
 
 notifications:
   email: false
