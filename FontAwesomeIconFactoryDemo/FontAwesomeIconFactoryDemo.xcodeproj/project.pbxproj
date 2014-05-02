@@ -13,10 +13,6 @@
 		1AA103C340331DA6AAF9B641 /* NIKFontAwesomePathFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10B1D960162B9B180D508 /* NIKFontAwesomePathFactory.m */; };
 		1AA105AEF10C3C1F685BA78A /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AA105F7FB838D999D1A8325 /* FontAwesome.otf */; };
 		1AA105DAFA9CF560D7693995 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10416780465E45812ED84 /* TabBarController.m */; };
-		1AA10BFC1AB409AF04383D16 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA106B5450296C990FFC44C /* CoreText.framework */; };
-		24CF4F2216EA12F900F16647 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF4F2116EA12F900F16647 /* UIKit.framework */; };
-		24CF4F2416EA12F900F16647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF4F2316EA12F900F16647 /* Foundation.framework */; };
-		24CF4F2616EA12F900F16647 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF4F2516EA12F900F16647 /* CoreGraphics.framework */; };
 		24CF4F2C16EA12F900F16647 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4F2A16EA12F900F16647 /* InfoPlist.strings */; };
 		24CF4F2E16EA12F900F16647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F2D16EA12F900F16647 /* main.m */; };
 		24CF4F3216EA12F900F16647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F3116EA12F900F16647 /* AppDelegate.m */; };
@@ -28,8 +24,6 @@
 		24CF4F4816EA12F900F16647 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F4716EA12F900F16647 /* SecondViewController.m */; };
 		24CF4F5416EA3DE400F16647 /* NIKFontAwesomeIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F5316EA3DE400F16647 /* NIKFontAwesomeIconFactory.m */; };
 		24DE5CAF1752B0B00026275F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DE5CAE1752B0B00026275F /* SenTestingKit.framework */; };
-		24DE5CB01752B0B00026275F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF4F2116EA12F900F16647 /* UIKit.framework */; };
-		24DE5CB11752B0B00026275F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CF4F2316EA12F900F16647 /* Foundation.framework */; };
 		24DE5CB71752B0B00026275F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24DE5CB51752B0B00026275F /* InfoPlist.strings */; };
 		24DE5CBA1752B0B00026275F /* FontAwesomeIconFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE5CB91752B0B00026275F /* FontAwesomeIconFactoryTests.m */; };
 /* End PBXBuildFile section */
@@ -51,16 +45,12 @@
 		1AA10416780465E45812ED84 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		1AA105DB716DC9B5B0A21330 /* NIKFontAwesomePathRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathRenderer.m; path = ../../NIKFontAwesomePathRenderer.m; sourceTree = "<group>"; };
 		1AA105F7FB838D999D1A8325 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "../../Font-Awesome/fonts/FontAwesome.otf"; sourceTree = "<group>"; };
-		1AA106B5450296C990FFC44C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		1AA109AF0654752D64A3A523 /* NIKFontAwesomeIconFactory+iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NIKFontAwesomeIconFactory+iOS.h"; path = "../../NIKFontAwesomeIconFactory+iOS.h"; sourceTree = "<group>"; };
 		1AA10AD62C8CCD240A3422B4 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		1AA10B1D960162B9B180D508 /* NIKFontAwesomePathFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathFactory.m; path = ../../NIKFontAwesomePathFactory.m; sourceTree = "<group>"; };
 		1AA10B8EE83C3B054C743EC1 /* NIKFontAwesomePathFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathFactory.h; path = ../../NIKFontAwesomePathFactory.h; sourceTree = "<group>"; };
 		1AA10CBC26BBC544AFB32D55 /* NIKFontAwesomePathRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathRenderer.h; path = ../../NIKFontAwesomePathRenderer.h; sourceTree = "<group>"; };
 		24CF4F1E16EA12F900F16647 /* FontAwesomeIconFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeIconFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		24CF4F2116EA12F900F16647 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		24CF4F2316EA12F900F16647 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		24CF4F2516EA12F900F16647 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		24CF4F2916EA12F900F16647 /* FontAwesomeIconFactoryDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryDemo-Info.plist"; sourceTree = "<group>"; };
 		24CF4F2B16EA12F900F16647 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24CF4F2D16EA12F900F16647 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,10 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24CF4F2216EA12F900F16647 /* UIKit.framework in Frameworks */,
-				24CF4F2416EA12F900F16647 /* Foundation.framework in Frameworks */,
-				24CF4F2616EA12F900F16647 /* CoreGraphics.framework in Frameworks */,
-				1AA10BFC1AB409AF04383D16 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,8 +89,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				24DE5CAF1752B0B00026275F /* SenTestingKit.framework in Frameworks */,
-				24DE5CB01752B0B00026275F /* UIKit.framework in Frameworks */,
-				24DE5CB11752B0B00026275F /* Foundation.framework in Frameworks */,
 				0CD78D7EB1774EB1A42EE5C7 /* libPods-FontAwesomeIconFactoryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,10 +136,6 @@
 		24CF4F2016EA12F900F16647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24CF4F2116EA12F900F16647 /* UIKit.framework */,
-				24CF4F2316EA12F900F16647 /* Foundation.framework */,
-				24CF4F2516EA12F900F16647 /* CoreGraphics.framework */,
-				1AA106B5450296C990FFC44C /* CoreText.framework */,
 				24DE5CAE1752B0B00026275F /* SenTestingKit.framework */,
 				AD8CE212ABF048F597C5A745 /* libPods-FontAwesomeIconFactoryTests.a */,
 			);
@@ -419,6 +399,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -448,6 +429,7 @@
 					"-Wno-objc-missing-property-synthesis",
 					"-Wno-direct-ivar-access",
 					"-Wno-vla",
+					"-Wno-auto-import",
 					"-Weverything",
 				);
 			};
@@ -459,6 +441,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -482,6 +465,7 @@
 					"-Wno-objc-missing-property-synthesis",
 					"-Wno-direct-ivar-access",
 					"-Wno-vla",
+					"-Wno-auto-import",
 					"-Weverything",
 				);
 			};
