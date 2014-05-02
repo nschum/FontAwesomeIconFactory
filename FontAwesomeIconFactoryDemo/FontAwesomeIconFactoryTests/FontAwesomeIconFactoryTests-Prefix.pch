@@ -6,13 +6,11 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 
-    #pragma clang diagnostic push
-    #pragma clang diagnostic ignored "-Wobjc-interface-ivars"
-    #pragma clang diagnostic ignored "-Wgnu"
-    #import <SenTestingKit/SenTestingKit.h>
+    #import <XCTest/XCTest.h>
 
+    #pragma clang diagnostic push
     #define HC_SHORTHAND
+    #pragma clang diagnostic ignored "-Wobjc-interface-ivars"
     #import <OCHamcrest/OCHamcrest.h>
     #pragma clang diagnostic pop
-
 #endif

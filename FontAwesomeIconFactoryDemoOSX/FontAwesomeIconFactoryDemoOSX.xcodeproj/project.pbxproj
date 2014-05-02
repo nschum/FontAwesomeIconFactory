@@ -17,7 +17,6 @@
 		24CF4E8C16EA11EE00F16647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4E8B16EA11EE00F16647 /* AppDelegate.m */; };
 		24CF4E8F16EA11EF00F16647 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4E8D16EA11EF00F16647 /* MainMenu.xib */; };
 		24CF4F5716EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F5616EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m */; };
-		24D1D0AC175E7485001DB168 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D1D0AB175E7485001DB168 /* SenTestingKit.framework */; };
 		24D1D0B3175E7485001DB168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24D1D0B1175E7485001DB168 /* InfoPlist.strings */; };
 		24D1D0B6175E7485001DB168 /* FontAwesomeIconFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1D0B5175E7485001DB168 /* FontAwesomeIconFactoryTests.m */; };
 		DA28B13CAC6A4124AEFBA976 /* libPods-FontAwesomeIconFactoryTestsOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD257CB40094C11A3FDF333 /* libPods-FontAwesomeIconFactoryTestsOSX.a */; };
@@ -53,8 +52,7 @@
 		24CF4E8E16EA11EF00F16647 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		24CF4F5516EA3DEF00F16647 /* NIKFontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconFactory.h; path = ../../NIKFontAwesomeIconFactory.h; sourceTree = "<group>"; };
 		24CF4F5616EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeIconFactory.m; path = ../../NIKFontAwesomeIconFactory.m; sourceTree = "<group>"; };
-		24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeIconFactoryTestsOSX.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24D1D0AB175E7485001DB168 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeIconFactoryTestsOSX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D1D0B0175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryTestsOSX-Info.plist"; sourceTree = "<group>"; };
 		24D1D0B2175E7485001DB168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24D1D0B5175E7485001DB168 /* FontAwesomeIconFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FontAwesomeIconFactoryTests.m; path = ../../FontAwesomeIconFactoryTests/FontAwesomeIconFactoryTests.m; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24D1D0AC175E7485001DB168 /* SenTestingKit.framework in Frameworks */,
 				DA28B13CAC6A4124AEFBA976 /* libPods-FontAwesomeIconFactoryTestsOSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				24CF4E7516EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX.app */,
-				24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.octest */,
+				24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +120,6 @@
 		24CF4E7716EA11EE00F16647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24D1D0AB175E7485001DB168 /* SenTestingKit.framework */,
 				9FD257CB40094C11A3FDF333 /* libPods-FontAwesomeIconFactoryTestsOSX.a */,
 			);
 			name = Frameworks;
@@ -210,8 +206,8 @@
 			);
 			name = FontAwesomeIconFactoryTestsOSX;
 			productName = FontAwesomeIconFactoryTestsOSX;
-			productReference = 24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -411,7 +407,9 @@
 					"-Wno-objc-missing-property-synthesis",
 					"-Wno-direct-ivar-access",
 					"-Wno-vla",
+					"-Wno-variadic-macros",
 					"-Wno-auto-import",
+					"-Wno-incomplete-module",
 					"-Weverything",
 				);
 			};
@@ -446,7 +444,9 @@
 					"-Wno-objc-missing-property-synthesis",
 					"-Wno-direct-ivar-access",
 					"-Wno-vla",
+					"-Wno-variadic-macros",
 					"-Wno-auto-import",
+					"-Wno-incomplete-module",
 					"-Weverything",
 				);
 			};
@@ -482,14 +482,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeIconFactoryDemoOSX.app/Contents/MacOS/FontAwesomeIconFactoryDemoOSX";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -499,14 +501,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeIconFactoryDemoOSX.app/Contents/MacOS/FontAwesomeIconFactoryDemoOSX";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

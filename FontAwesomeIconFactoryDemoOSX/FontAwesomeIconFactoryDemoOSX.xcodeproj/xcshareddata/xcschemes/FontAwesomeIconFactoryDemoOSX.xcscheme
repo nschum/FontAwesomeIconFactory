@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24D1D0A9175E7485001DB168"
-               BuildableName = "FontAwesomeIconFactoryTestsOSX.octest"
+               BuildableName = "FontAwesomeIconFactoryTestsOSX.xctest"
                BlueprintName = "FontAwesomeIconFactoryTestsOSX"
                ReferencedContainer = "container:FontAwesomeIconFactoryDemoOSX.xcodeproj">
             </BuildableReference>

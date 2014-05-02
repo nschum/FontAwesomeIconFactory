@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24DE5CAC1752B0B00026275F"
-               BuildableName = "FontAwesomeIconFactoryTests.octest"
+               BuildableName = "FontAwesomeIconFactoryTests.xctest"
                BlueprintName = "FontAwesomeIconFactoryTests"
                ReferencedContainer = "container:FontAwesomeIconFactoryDemo.xcodeproj">
             </BuildableReference>
@@ -61,7 +61,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "24DE5CAC1752B0B00026275F"
-               BuildableName = "FontAwesomeIconFactoryTests.octest"
+               BuildableName = "FontAwesomeIconFactoryTests.xctest"
                BlueprintName = "FontAwesomeIconFactoryTests"
                ReferencedContainer = "container:FontAwesomeIconFactoryDemo.xcodeproj">
             </BuildableReference>

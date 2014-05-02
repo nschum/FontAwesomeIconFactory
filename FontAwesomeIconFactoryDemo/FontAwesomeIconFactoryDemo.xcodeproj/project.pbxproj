@@ -23,7 +23,6 @@
 		24CF4F4116EA12F900F16647 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F4016EA12F900F16647 /* FirstViewController.m */; };
 		24CF4F4816EA12F900F16647 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F4716EA12F900F16647 /* SecondViewController.m */; };
 		24CF4F5416EA3DE400F16647 /* NIKFontAwesomeIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F5316EA3DE400F16647 /* NIKFontAwesomeIconFactory.m */; };
-		24DE5CAF1752B0B00026275F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DE5CAE1752B0B00026275F /* SenTestingKit.framework */; };
 		24DE5CB71752B0B00026275F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24DE5CB51752B0B00026275F /* InfoPlist.strings */; };
 		24DE5CBA1752B0B00026275F /* FontAwesomeIconFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE5CB91752B0B00026275F /* FontAwesomeIconFactoryTests.m */; };
 /* End PBXBuildFile section */
@@ -67,8 +66,7 @@
 		24CF4F4716EA12F900F16647 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		24CF4F5216EA3DE400F16647 /* NIKFontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconFactory.h; path = ../../NIKFontAwesomeIconFactory.h; sourceTree = "<group>"; };
 		24CF4F5316EA3DE400F16647 /* NIKFontAwesomeIconFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeIconFactory.m; path = ../../NIKFontAwesomeIconFactory.m; sourceTree = "<group>"; };
-		24DE5CAD1752B0B00026275F /* FontAwesomeIconFactoryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeIconFactoryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24DE5CAE1752B0B00026275F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		24DE5CAD1752B0B00026275F /* FontAwesomeIconFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeIconFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DE5CB41752B0B00026275F /* FontAwesomeIconFactoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryTests-Info.plist"; sourceTree = "<group>"; };
 		24DE5CB61752B0B00026275F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24DE5CB91752B0B00026275F /* FontAwesomeIconFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FontAwesomeIconFactoryTests.m; path = ../../FontAwesomeIconFactoryTests/FontAwesomeIconFactoryTests.m; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DE5CAF1752B0B00026275F /* SenTestingKit.framework in Frameworks */,
 				0CD78D7EB1774EB1A42EE5C7 /* libPods-FontAwesomeIconFactoryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				24CF4F1E16EA12F900F16647 /* FontAwesomeIconFactoryDemo.app */,
-				24DE5CAD1752B0B00026275F /* FontAwesomeIconFactoryTests.octest */,
+				24DE5CAD1752B0B00026275F /* FontAwesomeIconFactoryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,7 +133,6 @@
 		24CF4F2016EA12F900F16647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24DE5CAE1752B0B00026275F /* SenTestingKit.framework */,
 				AD8CE212ABF048F597C5A745 /* libPods-FontAwesomeIconFactoryTests.a */,
 			);
 			name = Frameworks;
@@ -231,8 +227,8 @@
 			);
 			name = FontAwesomeIconFactoryTests;
 			productName = FontAwesomeIconFactoryTests;
-			productReference = 24DE5CAD1752B0B00026275F /* FontAwesomeIconFactoryTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 24DE5CAD1752B0B00026275F /* FontAwesomeIconFactoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -429,7 +425,9 @@
 					"-Wno-objc-missing-property-synthesis",
 					"-Wno-direct-ivar-access",
 					"-Wno-vla",
+					"-Wno-variadic-macros",
 					"-Wno-auto-import",
+					"-Wno-incomplete-module",
 					"-Weverything",
 				);
 			};
@@ -465,7 +463,9 @@
 					"-Wno-objc-missing-property-synthesis",
 					"-Wno-direct-ivar-access",
 					"-Wno-vla",
+					"-Wno-variadic-macros",
 					"-Wno-auto-import",
+					"-Wno-incomplete-module",
 					"-Weverything",
 				);
 			};
@@ -503,6 +503,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryTests/FontAwesomeIconFactoryTests-Prefix.pch";
@@ -510,7 +511,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -522,6 +522,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryTests/FontAwesomeIconFactoryTests-Prefix.pch";
@@ -529,7 +530,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

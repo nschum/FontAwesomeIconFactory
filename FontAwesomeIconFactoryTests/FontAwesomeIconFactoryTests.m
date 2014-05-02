@@ -2,7 +2,7 @@
 
 static const float EPSILON = 0.0001;
 
-@interface FontAwesomeIconFactoryTests : SenTestCase
+@interface FontAwesomeIconFactoryTests : XCTestCase
 @property (nonatomic, strong) NIKFontAwesomeIconFactory *factory;
 @property (nonatomic, strong) NSSet *gaps;
 @end
