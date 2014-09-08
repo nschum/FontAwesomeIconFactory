@@ -17,7 +17,7 @@ static const float EPSILON = 0.0001;
 
 - (void)eachIcon:(void (^)(NIKFontAwesomeIcon))iterator {
     for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
-         icon <= NIKFontAwesomeIconPlusSquareO;
+         icon <= NIKFontAwesomeIconAngellist;
          icon++) {
         if (![_gaps containsObject:@(icon)]) {
             iterator(icon);
