@@ -20,7 +20,7 @@ typedef NSImage NIKImage;
  *
  * "Font Awesome" (http://fortawesome.github.com/Font-Awesome/) must be part of the app bundle.
  **/
-@interface NIKFontAwesomeIconFactory : NSObject<NSCopying, NSCopying, NSCopying>
+@interface NIKFontAwesomeIconFactory : NSObject<NSCopying>
 
 /** The height in points of the created images. */
 @property (nonatomic, assign) CGFloat size;
