@@ -1,4 +1,4 @@
-typedef enum NIKFontAwesomeIcon : UniChar {
+typedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {
     NIKFontAwesomeIconAdjust = 0xf042,
     NIKFontAwesomeIconAdn = 0xf170,
     NIKFontAwesomeIconAlignCenter = 0xf037,
@@ -548,4 +548,4 @@ typedef enum NIKFontAwesomeIcon : UniChar {
     NIKFontAwesomeIconYoutube = 0xf167,
     NIKFontAwesomeIconYoutubePlay = 0xf16a,
     NIKFontAwesomeIconYoutubeSquare = 0xf166,
-} NIKFontAwesomeIcon;
+};
