@@ -13,9 +13,9 @@ def convert_symbol(name):
   return name
 
 
-head = "typedef enum NIKFontAwesomeIcon : UniChar {\n"
+head = "typedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {\n"
 code = "    NIKFontAwesomeIcon{} = 0x{},\n"
-foot = "} NIKFontAwesomeIcon;\n"
+foot = "};\n"
 w = open('./NIKFontAwesomeIcon.h', 'w')
 w.write(head)
 f = open('./Font-Awesome/scss/_variables.scss', 'r')

@@ -1,3 +1,5 @@
+#pragma clang assume_nonnull begin
+
 /** Renders a path using a CGContext. */
 @interface NIKFontAwesomePathRenderer : NSObject
 
@@ -11,3 +13,5 @@
 - (void)renderInContext:(CGContextRef)context;
 
 @end
+
+#pragma clang assume_nonnull end

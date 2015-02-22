@@ -3,8 +3,8 @@
 @implementation NIKFontAwesomePathRenderer
 
 - (void)dealloc {
-    self.path = NULL;
-    self.strokeColor = NULL;
+    CGPathRelease(_path);
+    CGColorRelease(_strokeColor);
 }
 
 - (void)setPath:(CGPathRef)path {

@@ -1,5 +1,7 @@
 #import "NIKFontAwesomeIcon.h"
 
+#pragma clang assume_nonnull begin
+
 #if TARGET_OS_IPHONE
 typedef UIEdgeInsets NIKEdgeInsets;
 typedef UIColor NIKColor;
@@ -74,3 +76,5 @@ typedef NSImage NIKImage;
 - (NIKImage *)createImageForIcon:(NIKFontAwesomeIcon)icon;
 
 @end
+
+#pragma clang assume_nonnull end
