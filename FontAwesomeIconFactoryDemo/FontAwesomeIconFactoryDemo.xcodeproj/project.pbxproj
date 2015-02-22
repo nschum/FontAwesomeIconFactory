@@ -428,6 +428,7 @@
 					"-Wno-variadic-macros",
 					"-Wno-auto-import",
 					"-Wno-incomplete-module",
+					"-Wno-documentation-unknown-command",
 					"-Weverything",
 				);
 			};
@@ -466,6 +467,7 @@
 					"-Wno-variadic-macros",
 					"-Wno-auto-import",
 					"-Wno-incomplete-module",
+					"-Wno-documentation-unknown-command",
 					"-Weverything",
 				);
 			};
