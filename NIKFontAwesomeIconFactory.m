@@ -11,6 +11,18 @@ typedef NSBezierPath NIKBezierPath;
 
 @implementation NIKFontAwesomeIconFactory
 
+@synthesize size = _size;
+@synthesize edgeInsets = _edgeInsets;
+@synthesize padded = _padded;
+@synthesize square = _square;
+@synthesize colors = _colors;
+@synthesize strokeColor = _strokeColor;
+@synthesize strokeWidth = _strokeWidth;
+
+#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+@synthesize renderingMode = _renderingMode;
+#endif
+
 - (id)init {
     self = [super init];
     if (self) {
