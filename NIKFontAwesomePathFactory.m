@@ -35,8 +35,8 @@ static NSString *const FONT_EXTENSION = @"otf";
     static CTFontRef __font;
     static dispatch_once_t __onceToken;
     dispatch_once(&__onceToken, ^{
-        NSURL *url = [[NSBundle mainBundle] URLForResource:FONT_NAME
-                                             withExtension:FONT_EXTENSION];
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        NSURL *url = [bundle URLForResource:FONT_NAME withExtension:FONT_EXTENSION];
         NSAssert(url, @"Font Awesome not found in bundle.", nil);
         CGDataProviderRef provider = CGDataProviderCreateWithURL((__bridge CFURLRef)url);
         CGFontRef cgFont = CGFontCreateWithDataProvider(provider);

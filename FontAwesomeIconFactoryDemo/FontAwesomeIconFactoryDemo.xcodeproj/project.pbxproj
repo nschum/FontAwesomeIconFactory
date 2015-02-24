@@ -23,6 +23,7 @@
 		24CF4F4116EA12F900F16647 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F4016EA12F900F16647 /* FirstViewController.m */; };
 		24CF4F4816EA12F900F16647 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F4716EA12F900F16647 /* SecondViewController.m */; };
 		24CF4F5416EA3DE400F16647 /* NIKFontAwesomeIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F5316EA3DE400F16647 /* NIKFontAwesomeIconFactory.m */; };
+		24D6D33F1A9A5C80002F493A /* NIKFontAwesomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D6D33E1A9A5C80002F493A /* NIKFontAwesomeButton.m */; };
 		24DE5CB71752B0B00026275F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24DE5CB51752B0B00026275F /* InfoPlist.strings */; };
 		24DE5CBA1752B0B00026275F /* FontAwesomeIconFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE5CB91752B0B00026275F /* FontAwesomeIconFactoryTests.m */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,8 @@
 		24CF4F4716EA12F900F16647 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		24CF4F5216EA3DE400F16647 /* NIKFontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconFactory.h; path = ../../NIKFontAwesomeIconFactory.h; sourceTree = "<group>"; };
 		24CF4F5316EA3DE400F16647 /* NIKFontAwesomeIconFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeIconFactory.m; path = ../../NIKFontAwesomeIconFactory.m; sourceTree = "<group>"; };
+		24D6D33D1A9A5C80002F493A /* NIKFontAwesomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeButton.h; path = ../../iOS/NIKFontAwesomeButton.h; sourceTree = "<group>"; };
+		24D6D33E1A9A5C80002F493A /* NIKFontAwesomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeButton.m; path = ../../iOS/NIKFontAwesomeButton.m; sourceTree = "<group>"; };
 		24DE5CAD1752B0B00026275F /* FontAwesomeIconFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeIconFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DE5CB41752B0B00026275F /* FontAwesomeIconFactoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryTests-Info.plist"; sourceTree = "<group>"; };
 		24DE5CB61752B0B00026275F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 		1AA104D7AE5FC117C5BC7A38 /* FontAwesomeIconFactory */ = {
 			isa = PBXGroup;
 			children = (
+				24D6D33C1A9A5C3C002F493A /* iOS */,
 				1AA105F7FB838D999D1A8325 /* FontAwesome.otf */,
 				1AA1024E4AC97227BC7EA6C0 /* NIKFontAwesomeIcon.h */,
 				1AA109AF0654752D64A3A523 /* NIKFontAwesomeIconFactory+iOS.h */,
@@ -170,6 +174,15 @@
 				24CF4F3716EA12F900F16647 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24D6D33C1A9A5C3C002F493A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				24D6D33D1A9A5C80002F493A /* NIKFontAwesomeButton.h */,
+				24D6D33E1A9A5C80002F493A /* NIKFontAwesomeButton.m */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		24DE5CB21752B0B00026275F /* FontAwesomeIconFactoryTests */ = {
@@ -335,6 +348,7 @@
 			files = (
 				24CF4F2E16EA12F900F16647 /* main.m in Sources */,
 				24CF4F3216EA12F900F16647 /* AppDelegate.m in Sources */,
+				24D6D33F1A9A5C80002F493A /* NIKFontAwesomeButton.m in Sources */,
 				24CF4F4116EA12F900F16647 /* FirstViewController.m in Sources */,
 				24CF4F4816EA12F900F16647 /* SecondViewController.m in Sources */,
 				24CF4F5416EA3DE400F16647 /* NIKFontAwesomeIconFactory.m in Sources */,
