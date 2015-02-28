@@ -378,7 +378,11 @@
                             <constraint firstAttribute="trailing" secondItem="neX-RR-mnz" secondAttribute="trailing" constant="16" id="nJr-hr-Bht"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Second" id="6" customClass="NIKFontAwesomeTabBarItem">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f024"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
