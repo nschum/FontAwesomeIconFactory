@@ -32,6 +32,16 @@ The font is included as a submodule. So remember to run `git submodule update --
 Changes
 -------
 
+### 2.0 ###
+
+- Updates Font Awesome to version 4.3.0 for new and changed icons.
+- Annotated for nicer use in Swift.
+- Support for adding icons to iOS controls in Interface Builder.
+
+### 1.4 ###
+
+- Updates Font Awesome to version 4.2.0 for new and changed icons.
+
 ### 1.3 ###
 
 - Updates Font Awesome to version 4.0.3 for new and changed icons.
