@@ -28,6 +28,11 @@ IB_DESIGNABLE // isn't actually rendered by Interface Builder
 @property (nonatomic, assign) IBInspectable CGFloat edgeInsetLeft;
 @property (nonatomic, assign) IBInspectable CGFloat edgeInsetRight;
 @property (nonatomic, copy) IBInspectable UIColor *color;
+#if __has_feature(nullability)
+@property (nonatomic, copy, nullable) IBInspectable UIColor *color2;
+#else
+@property (nonatomic, copy) IBInspectable UIColor *color2;
+#endif
 @property (nonatomic, copy) IBInspectable UIColor *strokeColor;
 @property (nonatomic, assign) IBInspectable CGFloat strokeWidth;
 

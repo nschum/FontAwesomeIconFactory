@@ -365,7 +365,10 @@
                                         <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.17956035607629484" green="0.26463429411024331" blue="0.68563366380000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.057512922167482237" green="0.28639555173879971" blue="0.68563366380000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color2">
+                                        <color key="value" red="0.39015242780118731" green="1" blue="0.65953454293987634" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>

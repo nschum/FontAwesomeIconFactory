@@ -177,7 +177,20 @@
 }
 
 - (void)setColor:(UIColor *)color {
-    self.colors = @[color];
+    UIColor *color2 = self.color2;
+    if (color2) {
+        self.colors = @[color, color2];
+    } else {
+        self.colors = @[color];
+    }
+}
+
+- (UIColor *)color2 {
+    return self.colors.count > 1 ? self.colors[1] : nil;
+}
+
+- (void)setColor2:(UIColor *)color2 {
+    self.colors = @[self.color, color2];
 }
 
 - (UIColor *)strokeColor {
