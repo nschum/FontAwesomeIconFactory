@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6751"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -650,60 +650,56 @@
         <window title="AwesomeIconFactoryDemoOSX" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1177"/>
+            <rect key="contentRect" x="335" y="390" width="480" height="149"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
             <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <rect key="frame" x="0.0" y="0.0" width="480" height="149"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button translatesAutoresizingMaskIntoConstraints="NO" id="544">
-                        <rect key="frame" x="18" y="313" width="50" height="29"/>
+                        <rect key="frame" x="18" y="102" width="50" height="29"/>
                         <buttonCell key="cell" type="bevel" title="Test" bezelStyle="regularSquare" imagePosition="left" alignment="center" borderStyle="border" inset="2" id="545">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="587">
-                        <rect key="frame" x="14" y="268" width="66" height="32"/>
+                        <rect key="frame" x="14" y="57" width="66" height="32"/>
                         <buttonCell key="cell" type="push" title="Test" bezelStyle="rounded" imagePosition="left" alignment="center" borderStyle="border" inset="2" id="589">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <button translatesAutoresizingMaskIntoConstraints="NO" id="645">
-                        <rect key="frame" x="215" y="313" width="51" height="29"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="24" id="717"/>
-                            <constraint firstAttribute="width" constant="47" id="718"/>
-                        </constraints>
+                    <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="645">
+                        <rect key="frame" x="215" y="102" width="51" height="29"/>
                         <buttonCell key="cell" type="bevel" title="Test" bezelStyle="regularSquare" alignment="center" borderStyle="border" inset="2" id="648">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="646">
-                        <rect key="frame" x="207" y="268" width="66" height="32"/>
+                        <rect key="frame" x="207" y="57" width="66" height="32"/>
                         <buttonCell key="cell" type="push" title="Test" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="647">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
                     <button translatesAutoresizingMaskIntoConstraints="NO" id="662">
-                        <rect key="frame" x="412" y="313" width="50" height="29"/>
+                        <rect key="frame" x="412" y="102" width="50" height="29"/>
                         <buttonCell key="cell" type="bevel" title="Test" bezelStyle="regularSquare" imagePosition="right" alignment="center" borderStyle="border" inset="2" id="665">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="663">
-                        <rect key="frame" x="400" y="268" width="66" height="32"/>
+                        <rect key="frame" x="400" y="57" width="66" height="32"/>
                         <buttonCell key="cell" type="push" title="Test" bezelStyle="rounded" imagePosition="right" alignment="center" borderStyle="border" inset="2" id="664">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
                     <button translatesAutoresizingMaskIntoConstraints="NO" id="695">
-                        <rect key="frame" x="215" y="228" width="50" height="29"/>
+                        <rect key="frame" x="215" y="17" width="50" height="29"/>
                         <buttonCell key="cell" type="bevel" title="Test" bezelStyle="regularSquare" imagePosition="below" alignment="center" borderStyle="border" inset="2" id="696">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -725,6 +721,11 @@
                     <constraint firstItem="695" firstAttribute="centerX" secondItem="646" secondAttribute="centerX" id="709"/>
                     <constraint firstItem="646" firstAttribute="centerX" secondItem="372" secondAttribute="centerX" id="715"/>
                     <constraint firstItem="587" firstAttribute="top" secondItem="544" secondAttribute="bottom" constant="20" symbolic="YES" id="716"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="695" secondAttribute="bottom" constant="20" id="0GK-m4-DZw"/>
+                    <constraint firstItem="662" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="645" secondAttribute="trailing" constant="8" symbolic="YES" id="5fa-3j-Aj8"/>
+                    <constraint firstItem="663" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="646" secondAttribute="trailing" constant="12" symbolic="YES" id="7Lu-Ck-TaR"/>
+                    <constraint firstItem="645" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="544" secondAttribute="trailing" constant="8" symbolic="YES" id="R9R-Ri-3fa"/>
+                    <constraint firstItem="646" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="587" secondAttribute="trailing" constant="12" symbolic="YES" id="uMk-e1-Wcf"/>
                 </constraints>
             </view>
             <toolbar key="toolbar" implicitIdentifier="9AF26F7F-6A05-4E15-A888-A1BC2A00C085" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="536">
@@ -734,6 +735,7 @@
                     <outlet property="delegate" destination="494" id="543"/>
                 </connections>
             </toolbar>
+            <point key="canvasLocation" x="568" y="371.5"/>
         </window>
         <customObject id="494" customClass="AppDelegate">
             <connections>
