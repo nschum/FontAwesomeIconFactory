@@ -45,6 +45,7 @@
 		1AA10E723806E226ABDC8461 /* NIKFontAwesomePathFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathFactory.h; path = ../../NIKFontAwesomePathFactory.h; sourceTree = "<group>"; };
 		2409C3BD1AC4BB4B000E8DBB /* NIKFontAwesomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeButton.h; path = ../../OSX/NIKFontAwesomeButton.h; sourceTree = "<group>"; };
 		2409C3BE1AC4BB4B000E8DBB /* NIKFontAwesomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeButton.m; path = ../../OSX/NIKFontAwesomeButton.m; sourceTree = "<group>"; };
+		2466FF0E1AEACD1100FAB486 /* FontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontAwesomeIconFactory.h; path = ../../FontAwesomeIconFactory.h; sourceTree = "<group>"; };
 		2473E48F1ADD70E10030C66B /* NIKFontAwesomeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeImageView.h; path = ../../OSX/NIKFontAwesomeImageView.h; sourceTree = "<group>"; };
 		2473E4901ADD70E10030C66B /* NIKFontAwesomeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeImageView.m; path = ../../OSX/NIKFontAwesomeImageView.m; sourceTree = "<group>"; };
 		24BBCB4F1A9D2F2E00C8AED7 /* NIKFontAwesomeIconTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconTraits.h; path = ../../NIKFontAwesomeIconTraits.h; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		1AA1001DB22D64652C752644 /* FontAwesomeIconFactory */ = {
 			isa = PBXGroup;
 			children = (
+				2466FF0E1AEACD1100FAB486 /* FontAwesomeIconFactory.h */,
 				2409C3BC1AC4BAD4000E8DBB /* OSX */,
 				1AA106FC688B5EDA6DCD4C52 /* FontAwesome.otf */,
 				1AA10B8893DF18A44433F3FA /* NIKFontAwesomeIcon.h */,
