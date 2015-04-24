@@ -2,6 +2,8 @@
 
 #import "NIKFontAwesomeIconFactory.h"
 
+@import AppKit;
+
 /** Preconfigured factories for typical OSX image sizes. */
 @interface NIKFontAwesomeIconFactory(OSX)
 

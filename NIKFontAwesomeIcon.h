@@ -1,3 +1,5 @@
+@import Foundation;
+
 typedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {
     NIKFontAwesomeIconAdjust = 0xf042,
     NIKFontAwesomeIconAdn = 0xf170,

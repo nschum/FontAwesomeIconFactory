@@ -1,6 +1,9 @@
 #import "NIKFontAwesomeIcon.h"
 #import "NIKFontAwesomeIconTraits.h"
 
+@import Foundation;
+@import UIKit;
+
 #pragma clang assume_nonnull begin
 
 IB_DESIGNABLE // isn't actually rendered by Interface Builder

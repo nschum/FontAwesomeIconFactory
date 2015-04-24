@@ -1,5 +1,7 @@
 #if TARGET_OS_IPHONE
 
+@import UIKit;
+
 #import "NIKFontAwesomeIconFactory.h"
 
 /** Preconfigured factories for typical iOS image sizes. */

@@ -1,11 +1,15 @@
 #import "NIKFontAwesomeIcon.h"
 #import "NIKFontAwesomeIconTraits.h"
 
+@import Foundation;
+
 #pragma clang assume_nonnull begin
 
 #if TARGET_OS_IPHONE
+@import UIKit;
 typedef UIImage NIKImage;
 #else
+@import AppKit;
 typedef NSImage NIKImage;
 #endif
 

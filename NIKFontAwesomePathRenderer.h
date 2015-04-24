@@ -1,3 +1,5 @@
+@import Foundation;
+
 #pragma clang assume_nonnull begin
 
 /** Renders a path using a CGContext. */

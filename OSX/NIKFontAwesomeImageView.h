@@ -1,6 +1,9 @@
 #import "NIKFontAwesomeIcon.h"
 #import "NIKFontAwesomeIconTraits.h"
 
+@import Foundation;
+@import AppKit;
+
 #pragma clang assume_nonnull begin
 
 IB_DESIGNABLE
