@@ -11,6 +11,10 @@ FontAwesomeIconFactory was created by Nikolaj Schumacher.
 
 [![Build Status](https://travis-ci.org/nschum/FontAwesomeIconFactory.png?branch=master)](https://travis-ci.org/nschum/FontAwesomeIconFactory)
 
+![screenshot Interface Builder](https://nschum.github.io/FontAwesomeIconFactory/screenshot-IB@2x.png)
+![screenshot OS X](https://nschum.github.io/FontAwesomeIconFactory/screenshot-OSX@2x.png)
+![screenshot iOS](https://nschum.github.io/FontAwesomeIconFactory/screenshot-iOS@2x.png)
+
 Setup
 -----
 
