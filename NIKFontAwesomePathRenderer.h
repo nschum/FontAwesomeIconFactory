@@ -1,4 +1,5 @@
 @import Foundation;
+#import "NIKFontAwesomeIconTypes.h"
 
 #pragma clang assume_nonnull begin
 
@@ -8,7 +9,7 @@
 @property (nonatomic, assign) CGPathRef path;
 @property (nonatomic, assign) CGPoint offset;
 
-@property (nonatomic, copy) NSArray *colors;
+@property (nonatomic, copy) GENERIC(NSArray, NIKColor *) *colors;
 @property (nonatomic, assign) CGColorRef strokeColor;
 @property (nonatomic, assign) CGFloat strokeWidth;
 
