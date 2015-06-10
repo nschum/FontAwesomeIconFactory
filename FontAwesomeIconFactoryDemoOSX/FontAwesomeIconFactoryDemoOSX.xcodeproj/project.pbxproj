@@ -48,6 +48,7 @@
 		2466FF0E1AEACD1100FAB486 /* FontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontAwesomeIconFactory.h; path = ../../FontAwesomeIconFactory.h; sourceTree = "<group>"; };
 		2473E48F1ADD70E10030C66B /* NIKFontAwesomeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeImageView.h; path = ../../OSX/NIKFontAwesomeImageView.h; sourceTree = "<group>"; };
 		2473E4901ADD70E10030C66B /* NIKFontAwesomeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeImageView.m; path = ../../OSX/NIKFontAwesomeImageView.m; sourceTree = "<group>"; };
+		24B27BCB1B28EB98006E0279 /* NIKFontAwesomeIconTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKFontAwesomeIconTypes.h; sourceTree = "<group>"; };
 		24BBCB4F1A9D2F2E00C8AED7 /* NIKFontAwesomeIconTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconTraits.h; path = ../../NIKFontAwesomeIconTraits.h; sourceTree = "<group>"; };
 		24CF4E7516EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeIconFactoryDemoOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CF4E8016EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryDemoOSX-Info.plist"; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 				1AA102453E28FBFF21EEC1B1 /* NIKFontAwesomePathRenderer.h */,
 				1AA105203EF7BDF4B882338E /* NIKFontAwesomePathRenderer.m */,
 				24BBCB4F1A9D2F2E00C8AED7 /* NIKFontAwesomeIconTraits.h */,
+				24B27BCB1B28EB98006E0279 /* NIKFontAwesomeIconTypes.h */,
 			);
 			name = FontAwesomeIconFactory;
 			sourceTree = "<group>";

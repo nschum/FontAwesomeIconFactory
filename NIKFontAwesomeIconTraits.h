@@ -1,14 +1,6 @@
-#pragma clang assume_nonnull begin
+#import "NIKFontAwesomeIconTypes.h"
 
-#if TARGET_OS_IPHONE
-@import UIKit;
-typedef UIEdgeInsets NIKEdgeInsets;
-typedef UIColor NIKColor;
-#else
-@import AppKit;
-typedef NSEdgeInsets NIKEdgeInsets;
-typedef NSColor NIKColor;
-#endif
+#pragma clang assume_nonnull begin
 
 @protocol NIKFontAwesomeIconTraits
 

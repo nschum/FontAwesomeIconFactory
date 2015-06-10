@@ -58,6 +58,7 @@
 		243E83ED1AA1291200551749 /* NIKFontAwesomeTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeTabBarItem.h; path = ../../iOS/NIKFontAwesomeTabBarItem.h; sourceTree = "<group>"; };
 		243E83EE1AA1291200551749 /* NIKFontAwesomeTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeTabBarItem.m; path = ../../iOS/NIKFontAwesomeTabBarItem.m; sourceTree = "<group>"; };
 		2466FF0D1AEAC63500FAB486 /* FontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontAwesomeIconFactory.h; path = ../../FontAwesomeIconFactory.h; sourceTree = "<group>"; };
+		24B27BCA1B28EAFA006E0279 /* NIKFontAwesomeIconTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconTypes.h; path = ../../NIKFontAwesomeIconTypes.h; sourceTree = "<group>"; };
 		24CF4F1E16EA12F900F16647 /* FontAwesomeIconFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeIconFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CF4F2916EA12F900F16647 /* FontAwesomeIconFactoryDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryDemo-Info.plist"; sourceTree = "<group>"; };
 		24CF4F2B16EA12F900F16647 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 				1AA10CBC26BBC544AFB32D55 /* NIKFontAwesomePathRenderer.h */,
 				1AA105DB716DC9B5B0A21330 /* NIKFontAwesomePathRenderer.m */,
 				1AA10A76CE113D81B0899AD9 /* NIKFontAwesomeIconTraits.h */,
+				24B27BCA1B28EAFA006E0279 /* NIKFontAwesomeIconTypes.h */,
 			);
 			name = FontAwesomeIconFactory;
 			sourceTree = "<group>";
