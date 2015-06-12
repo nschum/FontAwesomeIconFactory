@@ -5,6 +5,8 @@
 *.xcworkspace/*.pbxuser
 *.xcworkspace/*.perspective*
 xcuserdata
+xcshareddata/*.xccheckout
+xcshareddata/*.xcscmblueprint
 
 Podfile.lock
 Pods
