@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,24 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "24CF4F1D16EA12F900F16647"
-               BuildableName = "FontAwesomeIconFactoryDemo.app"
-               BlueprintName = "FontAwesomeIconFactoryDemo"
-               ReferencedContainer = "container:FontAwesomeIconFactoryDemo.xcodeproj">
+               BlueprintIdentifier = "24414E661B2B8D770062E253"
+               BuildableName = "FontAwesomeIconFactory.framework"
+               BlueprintName = "FontAwesomeIconFactory"
+               ReferencedContainer = "container:FontAwesomeIconFactory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "NO"
+            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "24DE5CAC1752B0B00026275F"
+               BlueprintIdentifier = "24414E711B2B8D770062E253"
                BuildableName = "FontAwesomeIconFactoryTests.xctest"
                BlueprintName = "FontAwesomeIconFactoryTests"
-               ReferencedContainer = "container:FontAwesomeIconFactoryDemo.xcodeproj">
+               ReferencedContainer = "container:FontAwesomeIconFactory.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,14 +42,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "24414E711B2B8D770062E253"
+               BuildableName = "FontAwesomeIconFactoryTests.xctest"
+               BlueprintName = "FontAwesomeIconFactoryTests"
+               ReferencedContainer = "container:FontAwesomeIconFactory.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "24CF4F1D16EA12F900F16647"
-            BuildableName = "FontAwesomeIconFactoryDemo.app"
-            BlueprintName = "FontAwesomeIconFactoryDemo"
-            ReferencedContainer = "container:FontAwesomeIconFactoryDemo.xcodeproj">
+            BlueprintIdentifier = "24414E661B2B8D770062E253"
+            BuildableName = "FontAwesomeIconFactory.framework"
+            BlueprintName = "FontAwesomeIconFactory"
+            ReferencedContainer = "container:FontAwesomeIconFactory.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,16 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "24CF4F1D16EA12F900F16647"
-            BuildableName = "FontAwesomeIconFactoryDemo.app"
-            BlueprintName = "FontAwesomeIconFactoryDemo"
-            ReferencedContainer = "container:FontAwesomeIconFactoryDemo.xcodeproj">
+            BlueprintIdentifier = "24414E661B2B8D770062E253"
+            BuildableName = "FontAwesomeIconFactory.framework"
+            BlueprintName = "FontAwesomeIconFactory"
+            ReferencedContainer = "container:FontAwesomeIconFactory.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -81,16 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "24CF4F1D16EA12F900F16647"
-            BuildableName = "FontAwesomeIconFactoryDemo.app"
-            BlueprintName = "FontAwesomeIconFactoryDemo"
-            ReferencedContainer = "container:FontAwesomeIconFactoryDemo.xcodeproj">
+            BlueprintIdentifier = "24414E661B2B8D770062E253"
+            BuildableName = "FontAwesomeIconFactory.framework"
+            BlueprintName = "FontAwesomeIconFactory"
+            ReferencedContainer = "container:FontAwesomeIconFactory.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

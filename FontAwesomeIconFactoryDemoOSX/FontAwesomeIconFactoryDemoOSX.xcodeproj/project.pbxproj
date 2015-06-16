@@ -7,49 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AA103053CC2667E97382A81 /* NIKFontAwesomePathRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA105203EF7BDF4B882338E /* NIKFontAwesomePathRenderer.m */; };
-		1AA10A3B01A973D83397D7FC /* NIKFontAwesomePathFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10154DEA4A1A74CE135F2 /* NIKFontAwesomePathFactory.m */; };
-		1AA10B920381E16981F377B6 /* NIKFontAwesomeIconFactory+OSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA104972D772AB4240FF30E /* NIKFontAwesomeIconFactory+OSX.m */; };
 		1AA10E6269DFFB000C5E9EDB /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AA106FC688B5EDA6DCD4C52 /* FontAwesome.otf */; };
-		2409C3BF1AC4BB4B000E8DBB /* NIKFontAwesomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2409C3BE1AC4BB4B000E8DBB /* NIKFontAwesomeButton.m */; };
-		2473E4911ADD70E10030C66B /* NIKFontAwesomeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2473E4901ADD70E10030C66B /* NIKFontAwesomeImageView.m */; };
 		24CF4E8316EA11EE00F16647 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4E8116EA11EE00F16647 /* InfoPlist.strings */; };
 		24CF4E8516EA11EE00F16647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4E8416EA11EE00F16647 /* main.m */; };
 		24CF4E8916EA11EE00F16647 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4E8716EA11EE00F16647 /* Credits.rtf */; };
 		24CF4E8C16EA11EE00F16647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4E8B16EA11EE00F16647 /* AppDelegate.m */; };
 		24CF4E8F16EA11EF00F16647 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4E8D16EA11EF00F16647 /* MainMenu.xib */; };
-		24CF4F5716EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F5616EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m */; };
-		24D1D0B3175E7485001DB168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24D1D0B1175E7485001DB168 /* InfoPlist.strings */; };
-		24D1D0B6175E7485001DB168 /* FontAwesomeIconFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1D0B5175E7485001DB168 /* FontAwesomeIconFactoryTests.m */; };
-		DA28B13CAC6A4124AEFBA976 /* libPods-FontAwesomeIconFactoryTestsOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD257CB40094C11A3FDF333 /* libPods-FontAwesomeIconFactoryTestsOSX.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		24D1D0BB175E777F001DB168 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24CF4E6D16EA11EE00F16647 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 24CF4E7416EA11EE00F16647;
-			remoteInfo = FontAwesomeIconFactoryDemoOSX;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1AA10154DEA4A1A74CE135F2 /* NIKFontAwesomePathFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathFactory.m; path = ../../NIKFontAwesomePathFactory.m; sourceTree = "<group>"; };
-		1AA1018F973D64F2AFDC2CF4 /* NIKFontAwesomeIconFactory+OSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NIKFontAwesomeIconFactory+OSX.h"; path = "../../NIKFontAwesomeIconFactory+OSX.h"; sourceTree = "<group>"; };
-		1AA102453E28FBFF21EEC1B1 /* NIKFontAwesomePathRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathRenderer.h; path = ../../NIKFontAwesomePathRenderer.h; sourceTree = "<group>"; };
-		1AA104972D772AB4240FF30E /* NIKFontAwesomeIconFactory+OSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NIKFontAwesomeIconFactory+OSX.m"; path = "../../NIKFontAwesomeIconFactory+OSX.m"; sourceTree = "<group>"; };
-		1AA105203EF7BDF4B882338E /* NIKFontAwesomePathRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomePathRenderer.m; path = ../../NIKFontAwesomePathRenderer.m; sourceTree = "<group>"; };
 		1AA106FC688B5EDA6DCD4C52 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "../../Font-Awesome/fonts/FontAwesome.otf"; sourceTree = "<group>"; };
-		1AA10B8893DF18A44433F3FA /* NIKFontAwesomeIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIcon.h; path = ../../NIKFontAwesomeIcon.h; sourceTree = "<group>"; };
-		1AA10E723806E226ABDC8461 /* NIKFontAwesomePathFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomePathFactory.h; path = ../../NIKFontAwesomePathFactory.h; sourceTree = "<group>"; };
-		2409C3BD1AC4BB4B000E8DBB /* NIKFontAwesomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeButton.h; path = ../../OSX/NIKFontAwesomeButton.h; sourceTree = "<group>"; };
-		2409C3BE1AC4BB4B000E8DBB /* NIKFontAwesomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeButton.m; path = ../../OSX/NIKFontAwesomeButton.m; sourceTree = "<group>"; };
+		24414EFF1B2CF75A0062E253 /* FontAwesomeIconFactoryOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactoryOSX.framework; path = ../build/Debug/FontAwesomeIconFactoryOSX.framework; sourceTree = "<group>"; };
+		24414F101B2DDA030062E253 /* FontAwesomeIconFactoryOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactoryOSX.framework; path = ../build/Debug/FontAwesomeIconFactoryOSX.framework; sourceTree = "<group>"; };
+		24414F121B2DDA230062E253 /* FontAwesomeIconFactoryOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactoryOSX.framework; path = ../build/Debug/FontAwesomeIconFactoryOSX.framework; sourceTree = "<group>"; };
+		24414F141B2DDA360062E253 /* FontAwesomeIconFactoryOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactoryOSX.framework; path = ../build/Debug/FontAwesomeIconFactoryOSX.framework; sourceTree = "<group>"; };
 		2466FF0E1AEACD1100FAB486 /* FontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontAwesomeIconFactory.h; path = ../../FontAwesomeIconFactory.h; sourceTree = "<group>"; };
-		2473E48F1ADD70E10030C66B /* NIKFontAwesomeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeImageView.h; path = ../../OSX/NIKFontAwesomeImageView.h; sourceTree = "<group>"; };
-		2473E4901ADD70E10030C66B /* NIKFontAwesomeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeImageView.m; path = ../../OSX/NIKFontAwesomeImageView.m; sourceTree = "<group>"; };
 		24B27BCB1B28EB98006E0279 /* NIKFontAwesomeIconTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKFontAwesomeIconTypes.h; sourceTree = "<group>"; };
-		24BBCB4F1A9D2F2E00C8AED7 /* NIKFontAwesomeIconTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconTraits.h; path = ../../NIKFontAwesomeIconTraits.h; sourceTree = "<group>"; };
 		24CF4E7516EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeIconFactoryDemoOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CF4E8016EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryDemoOSX-Info.plist"; sourceTree = "<group>"; };
 		24CF4E8216EA11EE00F16647 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -59,15 +32,10 @@
 		24CF4E8A16EA11EE00F16647 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24CF4E8B16EA11EE00F16647 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24CF4E8E16EA11EF00F16647 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		24CF4F5516EA3DEF00F16647 /* NIKFontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeIconFactory.h; path = ../../NIKFontAwesomeIconFactory.h; sourceTree = "<group>"; };
-		24CF4F5616EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeIconFactory.m; path = ../../NIKFontAwesomeIconFactory.m; sourceTree = "<group>"; };
-		24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesomeIconFactoryTestsOSX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D1D0B0175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryTestsOSX-Info.plist"; sourceTree = "<group>"; };
 		24D1D0B2175E7485001DB168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24D1D0B5175E7485001DB168 /* FontAwesomeIconFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FontAwesomeIconFactoryTests.m; path = ../../FontAwesomeIconFactoryTests/FontAwesomeIconFactoryTests.m; sourceTree = "<group>"; };
 		24D1D0B7175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeIconFactoryTestsOSX-Prefix.pch"; sourceTree = "<group>"; };
-		9FD257CB40094C11A3FDF333 /* libPods-FontAwesomeIconFactoryTestsOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeIconFactoryTestsOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1C437A5A27B45CC96A78E2A /* Pods-FontAwesomeIconFactoryTestsOSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryTestsOSX.xcconfig"; path = "../Pods/Pods-FontAwesomeIconFactoryTestsOSX.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,14 +46,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24D1D0A6175E7485001DB168 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA28B13CAC6A4124AEFBA976 /* libPods-FontAwesomeIconFactoryTestsOSX.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,32 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				2466FF0E1AEACD1100FAB486 /* FontAwesomeIconFactory.h */,
-				2409C3BC1AC4BAD4000E8DBB /* OSX */,
 				1AA106FC688B5EDA6DCD4C52 /* FontAwesome.otf */,
-				1AA10B8893DF18A44433F3FA /* NIKFontAwesomeIcon.h */,
-				1AA1018F973D64F2AFDC2CF4 /* NIKFontAwesomeIconFactory+OSX.h */,
-				1AA104972D772AB4240FF30E /* NIKFontAwesomeIconFactory+OSX.m */,
-				24CF4F5516EA3DEF00F16647 /* NIKFontAwesomeIconFactory.h */,
-				24CF4F5616EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m */,
-				1AA10E723806E226ABDC8461 /* NIKFontAwesomePathFactory.h */,
-				1AA10154DEA4A1A74CE135F2 /* NIKFontAwesomePathFactory.m */,
-				1AA102453E28FBFF21EEC1B1 /* NIKFontAwesomePathRenderer.h */,
-				1AA105203EF7BDF4B882338E /* NIKFontAwesomePathRenderer.m */,
-				24BBCB4F1A9D2F2E00C8AED7 /* NIKFontAwesomeIconTraits.h */,
 				24B27BCB1B28EB98006E0279 /* NIKFontAwesomeIconTypes.h */,
 			);
 			name = FontAwesomeIconFactory;
-			sourceTree = "<group>";
-		};
-		2409C3BC1AC4BAD4000E8DBB /* OSX */ = {
-			isa = PBXGroup;
-			children = (
-				2409C3BD1AC4BB4B000E8DBB /* NIKFontAwesomeButton.h */,
-				2409C3BE1AC4BB4B000E8DBB /* NIKFontAwesomeButton.m */,
-				2473E48F1ADD70E10030C66B /* NIKFontAwesomeImageView.h */,
-				2473E4901ADD70E10030C66B /* NIKFontAwesomeImageView.m */,
-			);
-			name = OSX;
 			sourceTree = "<group>";
 		};
 		24CF4E6C16EA11EE00F16647 = {
@@ -128,7 +66,6 @@
 				24D1D0AE175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX */,
 				24CF4E7716EA11EE00F16647 /* Frameworks */,
 				24CF4E7616EA11EE00F16647 /* Products */,
-				C1C437A5A27B45CC96A78E2A /* Pods-FontAwesomeIconFactoryTestsOSX.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				24CF4E7516EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX.app */,
-				24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,7 +80,10 @@
 		24CF4E7716EA11EE00F16647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FD257CB40094C11A3FDF333 /* libPods-FontAwesomeIconFactoryTestsOSX.a */,
+				24414F141B2DDA360062E253 /* FontAwesomeIconFactoryOSX.framework */,
+				24414F121B2DDA230062E253 /* FontAwesomeIconFactoryOSX.framework */,
+				24414F101B2DDA030062E253 /* FontAwesomeIconFactoryOSX.framework */,
+				24414EFF1B2CF75A0062E253 /* FontAwesomeIconFactoryOSX.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,27 +151,6 @@
 			productReference = 24CF4E7516EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		24D1D0A9175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 24D1D0BA175E7485001DB168 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactoryTestsOSX" */;
-			buildPhases = (
-				F5F837D581104C30B2A2091B /* Check Pods Manifest.lock */,
-				24D1D0A5175E7485001DB168 /* Sources */,
-				24D1D0A6175E7485001DB168 /* Frameworks */,
-				24D1D0A7175E7485001DB168 /* Resources */,
-				24D1D0A8175E7485001DB168 /* ShellScript */,
-				C2E327BBBD454E2F92D12447 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				24D1D0BC175E777F001DB168 /* PBXTargetDependency */,
-			);
-			name = FontAwesomeIconFactoryTestsOSX;
-			productName = FontAwesomeIconFactoryTestsOSX;
-			productReference = 24D1D0AA175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,7 +174,6 @@
 			projectRoot = "";
 			targets = (
 				24CF4E7416EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX */,
-				24D1D0A9175E7485001DB168 /* FontAwesomeIconFactoryTestsOSX */,
 			);
 		};
 /* End PBXProject section */
@@ -273,93 +190,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24D1D0A7175E7485001DB168 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24D1D0B3175E7485001DB168 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		24D1D0A8175E7485001DB168 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		C2E327BBBD454E2F92D12447 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Pods-FontAwesomeIconFactoryTestsOSX-resources.sh\"\n";
-		};
-		F5F837D581104C30B2A2091B /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24CF4E7116EA11EE00F16647 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2409C3BF1AC4BB4B000E8DBB /* NIKFontAwesomeButton.m in Sources */,
 				24CF4E8516EA11EE00F16647 /* main.m in Sources */,
 				24CF4E8C16EA11EE00F16647 /* AppDelegate.m in Sources */,
-				24CF4F5716EA3DEF00F16647 /* NIKFontAwesomeIconFactory.m in Sources */,
-				2473E4911ADD70E10030C66B /* NIKFontAwesomeImageView.m in Sources */,
-				1AA103053CC2667E97382A81 /* NIKFontAwesomePathRenderer.m in Sources */,
-				1AA10A3B01A973D83397D7FC /* NIKFontAwesomePathFactory.m in Sources */,
-				1AA10B920381E16981F377B6 /* NIKFontAwesomeIconFactory+OSX.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		24D1D0A5175E7485001DB168 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24D1D0B6175E7485001DB168 /* FontAwesomeIconFactoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		24D1D0BC175E777F001DB168 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 24CF4E7416EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX */;
-			targetProxy = 24D1D0BB175E777F001DB168 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		24CF4E8116EA11EE00F16647 /* InfoPlist.strings */ = {
@@ -484,6 +327,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nik/src/FontAwesomeIconFactory/build/Debug,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Info.plist";
@@ -496,49 +343,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nik/src/FontAwesomeIconFactory/build/Debug,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		24D1D0B8175E7485001DB168 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1C437A5A27B45CC96A78E2A /* Pods-FontAwesomeIconFactoryTestsOSX.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeIconFactoryDemoOSX.app/Contents/MacOS/FontAwesomeIconFactoryDemoOSX";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Prefix.pch";
-				INFOPLIST_FILE = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		24D1D0B9175E7485001DB168 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1C437A5A27B45CC96A78E2A /* Pods-FontAwesomeIconFactoryTestsOSX.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontAwesomeIconFactoryDemoOSX.app/Contents/MacOS/FontAwesomeIconFactoryDemoOSX";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Prefix.pch";
-				INFOPLIST_FILE = "FontAwesomeIconFactoryTestsOSX/FontAwesomeIconFactoryTestsOSX-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
@@ -559,15 +372,6 @@
 			buildConfigurations = (
 				24CF4E9316EA11EF00F16647 /* Debug */,
 				24CF4E9416EA11EF00F16647 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		24D1D0BA175E7485001DB168 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactoryTestsOSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24D1D0B8175E7485001DB168 /* Debug */,
-				24D1D0B9175E7485001DB168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

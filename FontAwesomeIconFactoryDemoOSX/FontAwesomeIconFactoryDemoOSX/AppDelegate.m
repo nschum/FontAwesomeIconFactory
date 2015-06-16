@@ -1,6 +1,6 @@
 #import "AppDelegate.h"
-#import "NIKFontAwesomeIconFactory.h"
-#import "NIKFontAwesomeIconFactory+OSX.h"
+#import <FontAwesomeIconFactory/NIKFontAwesomeIconFactory.h>
+#import <FontAwesomeIconFactory/NIKFontAwesomeIconFactory+OSX.h>
 
 @interface AppDelegate()<NSToolbarDelegate>
 

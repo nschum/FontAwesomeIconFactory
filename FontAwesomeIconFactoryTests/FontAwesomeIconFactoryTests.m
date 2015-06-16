@@ -1,5 +1,9 @@
 #import "NIKFontAwesomeIconFactory.h"
 
+@import XCTest;
+#define HC_SHORTHAND
+#import <OCHamcrest/OCHamcrest.h>
+
 static const float EPSILON = 0.0001;
 
 @interface FontAwesomeIconFactoryTests : XCTestCase

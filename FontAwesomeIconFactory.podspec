@@ -24,25 +24,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "5.0"
   s.osx.deployment_target = "10.7"
 
-  s.source_files = "*.{h,m}"
-  s.ios.source_files = "iOS/*.{h,m}"
-  s.ios.exclude_files = "**/*+OSX.*"
-  s.osx.source_files = "OSX/*.{h,m}"
-  s.osx.exclude_files = "**/*+iOS.*"
+  s.source_files = "FontAwesomeIconFactory/*.{h,m}"
+  s.ios.source_files = "FontAwesomeIconFactory/iOS/*.{h,m}"
+  s.osx.source_files = "FontAwesomeIconFactory/OSX/*.{h,m}"
 
-  s.public_header_files = [
-    "FontAwesomeIconFactory.h",
-    "NIKFontAwesomeIconFactory*.h",
-    "NIKFontAwesomeIcon.h",
-    "NIKFontAwesomeIconTraits.h"
-  ]
-  s.ios.public_header_files = "iOS/*.h"
-  s.osx.public_header_files = "OSX/*.h"
-
-  s.resource  = "Font-Awesome/fonts/FontAwesome.otf"
+  s.resource = "Font-Awesome/fonts/FontAwesome.otf"
   s.ios.frameworks = "CoreText", "CoreGraphics"
   s.osx.frameworks = "CoreText", "CoreGraphics", "ApplicationServices"
-
-  s.requires_arc = true
 
 end

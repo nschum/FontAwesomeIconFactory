@@ -26,6 +26,17 @@ typedef NSImage NIKImage;
 /** Create an NSImage/UIImage from an icon. */
 - (NIKImage *)createImageForIcon:(NIKFontAwesomeIcon)icon;
 
+#if TARGET_OS_IPHONE
++ (instancetype)buttonIconFactory;
++ (instancetype)textlessButtonIconFactory;
++ (instancetype)barButtonItemIconFactory;
++ (instancetype)tabBarItemIconFactory;
+#else
++ (instancetype)bevelButtonIconFactory;
++ (instancetype)pushButtonIconFactory;
++ (instancetype)toolbarItemIconFactory;
+#endif
+
 @end
 
 #pragma clang assume_nonnull end

@@ -1,7 +1,7 @@
 #import "TabBarController.h"
 
-#import "NIKFontAwesomeIconFactory.h"
-#import "NIKFontAwesomeIconFactory+iOS.h"
+#import <FontAwesomeIconFactory/NIKFontAwesomeIconFactory.h>
+#import <FontAwesomeIconFactory/NIKFontAwesomeIconFactory+iOS.h>
 
 @implementation TabBarController
 
