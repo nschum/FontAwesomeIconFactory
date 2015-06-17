@@ -97,6 +97,7 @@
 		24414EC91B2CEC990062E253 /* NIKFontAwesomeTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeTabBarItem.h; path = iOS/NIKFontAwesomeTabBarItem.h; sourceTree = "<group>"; };
 		24414ECA1B2CEC990062E253 /* NIKFontAwesomeTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeTabBarItem.m; path = iOS/NIKFontAwesomeTabBarItem.m; sourceTree = "<group>"; };
 		24414EDB1B2CEEEF0062E253 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "Font-Awesome/fonts/FontAwesome.otf"; sourceTree = SOURCE_ROOT; };
+		24E82C161B30DABD008E23A6 /* Demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Demo.playground; path = FontAwesomeIconFactory/Demo.playground; sourceTree = "<group>"; };
 		34C173DB9E85F14175437E55 /* libPods-FontAwesomeIconFactoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeIconFactoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6234A805103089BF459DB0F0 /* Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryOSXTests/Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig"; sourceTree = "<group>"; };
 		872043D3F54580BEDB55CEEC /* Pods-FontAwesomeIconFactoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryTests/Pods-FontAwesomeIconFactoryTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 		24414E5D1B2B8D770062E253 = {
 			isa = PBXGroup;
 			children = (
+				24E82C161B30DABD008E23A6 /* Demo.playground */,
 				24414E691B2B8D770062E253 /* FontAwesomeIconFactory */,
 				24414E761B2B8D770062E253 /* FontAwesomeIconFactoryTests */,
 				24414E681B2B8D770062E253 /* Products */,
