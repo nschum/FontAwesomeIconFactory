@@ -78,12 +78,13 @@ typedef NSBezierPath NIKBezierPath;
     CGSize imageSize = bounds.size;
     CGPoint offset = CGPointZero;
 
+    // remove leading padding
+    offset.x = -bounds.origin.x;
     if (_padded) {
         imageSize.height = _size;
         imageSize.width += _strokeWidth;
     } else {
-        // remove padding
-        offset.x = -bounds.origin.x;
+        // remove vertical padding
         offset.y = -bounds.origin.y;
         if (imageSize.height > _size) {
             // NIKFontAwesomeIconSun and NIKFontAwesomeIconLinux
