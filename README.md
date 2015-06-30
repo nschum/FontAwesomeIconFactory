@@ -29,6 +29,11 @@ Then run `pod install` as usual.
 Changes
 -------
 
+### 2.0.1 ###
+
+- [Fix clipped icons](https://github.com/nschum/FontAwesomeIconFactory/issues/9)
+- Annotated generic collection types for Swift 2.
+
 ### 2.0 ###
 
 - Updates Font Awesome to version 4.3.0 for new and changed icons.
