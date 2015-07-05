@@ -29,6 +29,10 @@ Then run `pod install` as usual.
 Changes
 -------
 
+### 2.0.2 ###
+
+- FontAwesome is now a proper framework and supports Carthage.
+
 ### 2.0.1 ###
 
 - [Fix clipped icons](https://github.com/nschum/FontAwesomeIconFactory/issues/9)
