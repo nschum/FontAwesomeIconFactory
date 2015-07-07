@@ -11,6 +11,7 @@ env:
 
 script:
   - set -o pipefail; xcodebuild -workspace *.xcworkspace -sdk $SDK -scheme $SCHEME build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - pod lib lint
 
 notifications:
   email: false
