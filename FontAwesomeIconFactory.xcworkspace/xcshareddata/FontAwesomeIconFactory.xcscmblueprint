@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CA5BE690157B2857C234B05984A61C35329B5BA9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CA5BE690157B2857C234B05984A61C35329B5BA9" : 0,
+    "A5967575A82190AAAA29664569CD239121414FCA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "84CCB2B9-7015-4DAC-B81D-B0DFAE1AE159",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CA5BE690157B2857C234B05984A61C35329B5BA9" : "FontAwesomeIconFactory",
+    "A5967575A82190AAAA29664569CD239121414FCA" : "FontAwesomeIconFactoryFont-Awesome"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FontAwesomeIconFactory",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FontAwesomeIconFactory.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FortAwesome\/Font-Awesome.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A5967575A82190AAAA29664569CD239121414FCA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:nschum\/FontAwesomeIconFactory.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA5BE690157B2857C234B05984A61C35329B5BA9"
+    }
+  ]
+}

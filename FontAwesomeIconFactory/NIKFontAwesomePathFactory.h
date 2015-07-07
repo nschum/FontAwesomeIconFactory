@@ -1,5 +1,7 @@
 #import "NIKFontAwesomeIcon.h"
 
+@import CoreGraphics;
+
 #pragma clang assume_nonnull begin
 
 @interface NIKFontAwesomePathFactory : NSObject
