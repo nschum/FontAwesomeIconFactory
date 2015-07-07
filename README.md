@@ -9,7 +9,7 @@ http://fortawesome.github.com/Font-Awesome
 
 FontAwesomeIconFactory was created by Nikolaj Schumacher.
 
-[![Build Status](https://travis-ci.org/nschum/FontAwesomeIconFactory.png?branch=master)](https://travis-ci.org/nschum/FontAwesomeIconFactory)
+[![Build Status](https://travis-ci.org/nschum/FontAwesomeIconFactory.png?branch=master)](https://travis-ci.org/nschum/FontAwesomeIconFactory) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ![screenshot Interface Builder](https://nschum.github.io/FontAwesomeIconFactory/screenshot-IB@2x.png)
 ![screenshot OS X](https://nschum.github.io/FontAwesomeIconFactory/screenshot-OSX@2x.png)
