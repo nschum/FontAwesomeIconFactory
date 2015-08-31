@@ -1,17 +1,11 @@
 language: objective-c
-osx_image: xcode6.4
+osx_image: xcode7
+sudo: false
 
 before_install:
-  - gem install --no-ri --no-rdoc cocoapods xcpretty
-
-env:
-  matrix:
-    - SCHEME=FontAwesomeIconFactory SDK=iphonesimulator
-    - SCHEME=FontAwesomeIconFactoryOSX SDK=macosx
+  - gem install --no-document cocoapods xcpretty
 
 script:
-  - set -o pipefail; xcodebuild -workspace *.xcworkspace -sdk $SDK -scheme $SCHEME build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - set -o pipefail; xcodebuild -workspace *.xcworkspace -scheme "FontAwesomeIconFactoryOSX" build test | xcpretty -c
+  - set -o pipefail; xcodebuild -workspace *.xcworkspace -scheme "FontAwesomeIconFactory" -sdk iphonesimulator build test | xcpretty -c
   - pod lib lint
-
-notifications:
-  email: false
