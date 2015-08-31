@@ -7,5 +7,5 @@ before_install:
 
 script:
   - set -o pipefail; xcodebuild -workspace *.xcworkspace -scheme "FontAwesomeIconFactoryOSX" build test | xcpretty -c
-  - set -o pipefail; xcodebuild -workspace *.xcworkspace -scheme "FontAwesomeIconFactory" -sdk iphonesimulator build test | xcpretty -c
+  - set -o pipefail; xcodebuild -workspace *.xcworkspace -scheme "FontAwesomeIconFactory" -sdk iphonesimulator -destination platform="iOS Simulator",name="iPhone 6" -destination-timeout 1 build test | xcpretty -c
   - pod lib lint
