@@ -175,7 +175,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NSC;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Nikolaj Schumacher";
 			};
 			buildConfigurationList = 24CF4F1916EA12F900F16647 /* Build configuration list for PBXProject "FontAwesomeIconFactoryDemo" */;
@@ -269,6 +269,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -349,6 +350,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nschum.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -366,6 +368,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nschum.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

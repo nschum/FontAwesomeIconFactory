@@ -158,7 +158,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NSC;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Nikolaj Schumacher";
 			};
 			buildConfigurationList = 24CF4E7016EA11EE00F16647 /* Build configuration list for PBXProject "FontAwesomeIconFactoryDemoOSX" */;
@@ -254,6 +254,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -334,6 +335,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nschum.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -350,6 +352,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nschum.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
