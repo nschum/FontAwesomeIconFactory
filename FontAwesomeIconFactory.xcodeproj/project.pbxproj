@@ -699,7 +699,7 @@
 			baseConfigurationReference = 872043D3F54580BEDB55CEEC /* Pods-FontAwesomeIconFactoryTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -718,7 +718,7 @@
 			baseConfigurationReference = F7341E48D79B8FCF67422343 /* Pods-FontAwesomeIconFactoryTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FontAwesomeIconFactoryTests/Info.plist;

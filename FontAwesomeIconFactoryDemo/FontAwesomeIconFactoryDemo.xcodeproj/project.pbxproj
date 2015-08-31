@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1AA105AEF10C3C1F685BA78A /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AA105F7FB838D999D1A8325 /* FontAwesome.otf */; };
 		1AA105DAFA9CF560D7693995 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10416780465E45812ED84 /* TabBarController.m */; };
-		24414F041B2CFDB80062E253 /* FontAwesomeIconFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24414F021B2CFD970062E253 /* FontAwesomeIconFactory.framework */; };
+		249063121B94D91400CD1FBC /* FontAwesomeIconFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249063111B94D91400CD1FBC /* FontAwesomeIconFactory.framework */; };
 		24CF4F2C16EA12F900F16647 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4F2A16EA12F900F16647 /* InfoPlist.strings */; };
 		24CF4F2E16EA12F900F16647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F2D16EA12F900F16647 /* main.m */; };
 		24CF4F3216EA12F900F16647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4F3116EA12F900F16647 /* AppDelegate.m */; };
@@ -25,9 +25,8 @@
 		1AA10416780465E45812ED84 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		1AA105F7FB838D999D1A8325 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "../../Font-Awesome/fonts/FontAwesome.otf"; sourceTree = "<group>"; };
 		1AA10AD62C8CCD240A3422B4 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
-		24414EDF1B2CF5500062E253 /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactory.framework; path = "../build/Debug-iphoneos/FontAwesomeIconFactory.framework"; sourceTree = "<group>"; };
-		24414F021B2CFD970062E253 /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactory.framework; path = "../../../Library/Developer/Xcode/DerivedData/FontAwesomeIconFactory-dvgykkihjwvokvccobsriyoodyvs/Build/Products/Debug-iphoneos/FontAwesomeIconFactory.framework"; sourceTree = "<group>"; };
 		2466FF0D1AEAC63500FAB486 /* FontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontAwesomeIconFactory.h; path = ../../FontAwesomeIconFactory.h; sourceTree = "<group>"; };
+		249063111B94D91400CD1FBC /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactory.framework; path = "../build/Debug-iphoneos/FontAwesomeIconFactory.framework"; sourceTree = "<group>"; };
 		24CF4F1E16EA12F900F16647 /* FontAwesomeIconFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeIconFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CF4F2916EA12F900F16647 /* FontAwesomeIconFactoryDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryDemo-Info.plist"; sourceTree = "<group>"; };
 		24CF4F2B16EA12F900F16647 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -54,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24414F041B2CFDB80062E253 /* FontAwesomeIconFactory.framework in Frameworks */,
+				249063121B94D91400CD1FBC /* FontAwesomeIconFactory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +90,7 @@
 		24CF4F2016EA12F900F16647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24414F021B2CFD970062E253 /* FontAwesomeIconFactory.framework */,
-				24414EDF1B2CF5500062E253 /* FontAwesomeIconFactory.framework */,
+				249063111B94D91400CD1FBC /* FontAwesomeIconFactory.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -342,11 +340,6 @@
 		24CF4F5016EA12F900F16647 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/nik/src/FontAwesomeIconFactory/build/Debug-iphoneos",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/FontAwesomeIconFactory-dvgykkihjwvokvccobsriyoodyvs/Build/Products/Debug-iphoneos",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Info.plist";
@@ -360,11 +353,6 @@
 		24CF4F5116EA12F900F16647 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/nik/src/FontAwesomeIconFactory/build/Debug-iphoneos",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/FontAwesomeIconFactory-dvgykkihjwvokvccobsriyoodyvs/Build/Products/Debug-iphoneos",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemo/FontAwesomeIconFactoryDemo-Info.plist";

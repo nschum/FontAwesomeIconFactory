@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AA10E6269DFFB000C5E9EDB /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AA106FC688B5EDA6DCD4C52 /* FontAwesome.otf */; };
+		249063101B94D90B00CD1FBC /* FontAwesomeIconFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2490630F1B94D90B00CD1FBC /* FontAwesomeIconFactory.framework */; };
 		24CF4E8316EA11EE00F16647 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4E8116EA11EE00F16647 /* InfoPlist.strings */; };
 		24CF4E8516EA11EE00F16647 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF4E8416EA11EE00F16647 /* main.m */; };
 		24CF4E8916EA11EE00F16647 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 24CF4E8716EA11EE00F16647 /* Credits.rtf */; };
@@ -17,11 +18,8 @@
 
 /* Begin PBXFileReference section */
 		1AA106FC688B5EDA6DCD4C52 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "../../Font-Awesome/fonts/FontAwesome.otf"; sourceTree = "<group>"; };
-		24414EFF1B2CF75A0062E253 /* FontAwesomeIconFactoryOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactoryOSX.framework; path = ../build/Debug/FontAwesomeIconFactoryOSX.framework; sourceTree = "<group>"; };
-		24414F101B2DDA030062E253 /* FontAwesomeIconFactoryOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactoryOSX.framework; path = ../build/Debug/FontAwesomeIconFactoryOSX.framework; sourceTree = "<group>"; };
-		24414F121B2DDA230062E253 /* FontAwesomeIconFactoryOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactoryOSX.framework; path = ../build/Debug/FontAwesomeIconFactoryOSX.framework; sourceTree = "<group>"; };
-		24414F141B2DDA360062E253 /* FontAwesomeIconFactoryOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactoryOSX.framework; path = ../build/Debug/FontAwesomeIconFactoryOSX.framework; sourceTree = "<group>"; };
 		2466FF0E1AEACD1100FAB486 /* FontAwesomeIconFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontAwesomeIconFactory.h; path = ../../FontAwesomeIconFactory.h; sourceTree = "<group>"; };
+		2490630F1B94D90B00CD1FBC /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesomeIconFactory.framework; path = ../build/Debug/FontAwesomeIconFactory.framework; sourceTree = "<group>"; };
 		24B27BCB1B28EB98006E0279 /* NIKFontAwesomeIconTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKFontAwesomeIconTypes.h; sourceTree = "<group>"; };
 		24CF4E7516EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeIconFactoryDemoOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CF4E8016EA11EE00F16647 /* FontAwesomeIconFactoryDemoOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontAwesomeIconFactoryDemoOSX-Info.plist"; sourceTree = "<group>"; };
@@ -43,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249063101B94D90B00CD1FBC /* FontAwesomeIconFactory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,10 +79,7 @@
 		24CF4E7716EA11EE00F16647 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24414F141B2DDA360062E253 /* FontAwesomeIconFactoryOSX.framework */,
-				24414F121B2DDA230062E253 /* FontAwesomeIconFactoryOSX.framework */,
-				24414F101B2DDA030062E253 /* FontAwesomeIconFactoryOSX.framework */,
-				24414EFF1B2CF75A0062E253 /* FontAwesomeIconFactoryOSX.framework */,
+				2490630F1B94D90B00CD1FBC /* FontAwesomeIconFactory.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -328,10 +324,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/nik/src/FontAwesomeIconFactory/build/Debug,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Info.plist";
@@ -345,10 +337,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/nik/src/FontAwesomeIconFactory/build/Debug,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Prefix.pch";
 				INFOPLIST_FILE = "FontAwesomeIconFactoryDemoOSX/FontAwesomeIconFactoryDemoOSX-Info.plist";
