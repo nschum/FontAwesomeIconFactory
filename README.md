@@ -31,6 +31,10 @@ Then run `pod install` as usual.
 Changes
 -------
 
+### 2.0.3 ###
+
+- Fix for use in Xcode 7.
+
 ### 2.0.2 ###
 
 - FontAwesome is now a proper framework and supports Carthage.
