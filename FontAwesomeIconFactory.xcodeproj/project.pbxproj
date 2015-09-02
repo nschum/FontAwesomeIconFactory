@@ -67,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2412BE6B1B97820900B45D60 /* range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = range.h; sourceTree = "<group>"; };
 		24414E671B2B8D770062E253 /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeIconFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24414E6B1B2B8D770062E253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24414E6C1B2B8D770062E253 /* FontAwesomeIconFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeIconFactory.h; sourceTree = "<group>"; };
@@ -208,6 +209,7 @@
 		24414E761B2B8D770062E253 /* FontAwesomeIconFactoryTests */ = {
 			isa = PBXGroup;
 			children = (
+				2412BE6B1B97820900B45D60 /* range.h */,
 				24414E791B2B8D770062E253 /* FontAwesomeIconFactoryTests.m */,
 				24414E771B2B8D770062E253 /* Supporting Files */,
 			);

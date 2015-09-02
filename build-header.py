@@ -28,3 +28,9 @@ for symbol in symbol_pairs:
   w.write(code.format(symbol[0], symbol[1]))
 
 w.write(foot)
+
+with open('FontAwesomeIconFactoryTests/range.h', 'w') as minmax:
+  minmax.write("#define RANGE (@[ \\\n")
+  for code in sorted(set([pair[1] for pair in symbol_pairs])):
+    minmax.write("    @(0x%s), \\\n" % code)
+  minmax.write("])\n\n")

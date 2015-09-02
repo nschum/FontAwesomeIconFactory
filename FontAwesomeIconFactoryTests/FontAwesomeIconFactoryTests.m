@@ -1,5 +1,7 @@
 #import "NIKFontAwesomeIconFactory.h"
 
+#import "range.h"
+
 @import XCTest;
 #define HC_SHORTHAND
 #import <OCHamcrest/OCHamcrest.h>
@@ -16,16 +18,11 @@ static const float EPSILON = 0.0001;
 - (void)setUp {
     [super setUp];
     _factory = [NIKFontAwesomeIconFactory new];
-    _gaps = [[NSSet alloc] initWithObjects:@0xf116, @0xf117, nil];
 }
 
 - (void)eachIcon:(void (^)(NIKFontAwesomeIcon))iterator {
-    for (NIKFontAwesomeIcon icon = NIKFontAwesomeIconGlass;
-         icon <= NIKFontAwesomeIconAngellist;
-         icon++) {
-        if (![_gaps containsObject:@(icon)]) {
-            iterator(icon);
-        }
+    for (NSNumber *icon in RANGE) {
+        iterator([icon unsignedShortValue]);
     }
 }
 
