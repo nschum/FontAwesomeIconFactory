@@ -13,13 +13,21 @@ static NSString *const FONT_EXTENSION = @"otf";
 
     CGPathRef path = [self createPathForIcon:icon height:height];
     CGRect bounds = CGPathGetBoundingBox(path);
-    if (bounds.size.width > width) {
+    static const float EPSILON = 0.01;
+    if (bounds.size.width > width + EPSILON) {
         CGPathRef scaledPath = [self createScaledPath:path scale:width / bounds.size.width];
         CGPathRelease(path);
-        return scaledPath;
-    } else {
-        return path;
+        path = scaledPath;
+        bounds = CGPathGetBoundingBox(path);
     }
+    if (bounds.size.height > height + EPSILON) {
+        // Some icons (e.g. odnoklassniki) exceed their bounds.
+        // We lose pixel perfection here, but better than clipping.
+        CGPathRef scaledPath = [self createScaledPath:path scale:height / bounds.size.height];
+        CGPathRelease(path);
+        path = scaledPath;
+    }
+    return path;
 }
 
 - (CGPathRef)createPathForIcon:(NIKFontAwesomeIcon)icon height:(CGFloat)height CF_RETURNS_RETAINED {
