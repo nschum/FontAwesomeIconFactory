@@ -13,10 +13,10 @@ def convert_symbol(name):
   return name
 
 
-head = "typedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {\n"
+head = "@import Foundation;\n\ntypedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {\n"
 code = "    NIKFontAwesomeIcon{} = 0x{},\n"
 foot = "};\n"
-w = open('./NIKFontAwesomeIcon.h', 'w')
+w = open('./FontAwesomeIconFactory/NIKFontAwesomeIcon.h', 'w')
 w.write(head)
 f = open('./Font-Awesome/scss/_variables.scss', 'r')
 rx = re.compile('^\$fa-var([\w\d\-]+): \"\\\\(f[\d\w]*)\";')
