@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FontAwesomeIconFactory"
-  s.version      = "2.0.2"
+  s.version      = "2.1"
   s.summary      = "Create icons using the resolution-independent Font Awesome."
   s.description  = <<-DESC
                     A factory for turning Font Awesome pictograms into icon
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source       = {
     :git => "https://github.com/nschum/FontAwesomeIconFactory.git",
-    :tag => "2.0.2",
+    :tag => "2.1",
     :submodules => "true"
   }
 

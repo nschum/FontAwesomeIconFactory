@@ -31,6 +31,11 @@ Then run `pod install` as usual.
 Changes
 -------
 
+### 2.1 ###
+
+- Updates Font Awesome to version 4.2.0 for new and changed icons.
+- Fixed for usage with Xcode 7.
+
 ### 2.0.2 ###
 
 - FontAwesome is now a proper framework and supports Carthage.
