@@ -31,6 +31,10 @@ Then run `pod install` as usual.
 Changes
 -------
 
+### 2.1.0 ###
+
+- Fixes a naming regression in the Swift version of the enum.
+
 ### 2.1 ###
 
 - Updates Font Awesome to version 4.2.0 for new and changed icons.
