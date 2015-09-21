@@ -10,8 +10,11 @@ def convert_symbol(name):
   while (index > -1):
     name = name[:index] + name[index+1:index+2].upper()+ name[index+2:]
     index = name.find('-', index+1)
-  return name
+  if name.startswith("500px"):
+    return "FiveHundredPx" + name[5:]
 
+  assert not name[0].isdigit()
+  return name
 
 head = "@import Foundation;\n\ntypedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {\n"
 code = "    NIKFontAwesomeIcon{} = 0x{},\n"

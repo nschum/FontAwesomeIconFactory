@@ -1,7 +1,6 @@
 @import Foundation;
 
 typedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {
-    NIKFontAwesomeIcon500px = 0xf26e,
     NIKFontAwesomeIconAdjust = 0xf042,
     NIKFontAwesomeIconAdn = 0xf170,
     NIKFontAwesomeIconAlignCenter = 0xf037,
@@ -250,6 +249,7 @@ typedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {
     NIKFontAwesomeIconFire = 0xf06d,
     NIKFontAwesomeIconFireExtinguisher = 0xf134,
     NIKFontAwesomeIconFirefox = 0xf269,
+    NIKFontAwesomeIconFiveHundredPx = 0xf26e,
     NIKFontAwesomeIconFlag = 0xf024,
     NIKFontAwesomeIconFlagCheckered = 0xf11e,
     NIKFontAwesomeIconFlagO = 0xf11d,
