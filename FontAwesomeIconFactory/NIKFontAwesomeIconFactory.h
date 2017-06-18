@@ -24,7 +24,7 @@ typedef NSImage NIKImage;
 @interface NIKFontAwesomeIconFactory : NSObject<NSCopying, NIKFontAwesomeIconTraits>
 
 /** Create an NSImage/UIImage from an icon. */
-- (NIKImage *)createImageForIcon:(NIKFontAwesomeIcon)icon;
+- (NIKImage *)createImageForIcon:(NIKFontAwesomeIcon)icon NS_SWIFT_NAME(createImage(_:));
 
 #if TARGET_OS_IPHONE
 + (instancetype)buttonIconFactory;

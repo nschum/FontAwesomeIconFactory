@@ -8,7 +8,7 @@
 
 - (CGPathRef)createPathForIcon:(NIKFontAwesomeIcon)icon
                         height:(CGFloat)height
-                      maxWidth:(CGFloat)width CF_RETURNS_RETAINED;
+                      maxWidth:(CGFloat)width CF_RETURNS_RETAINED NS_SWIFT_NAME(createPath(icon:height:maxWidth:));
 
 @end
 

@@ -3,13 +3,13 @@
 import FontAwesomeIconFactory
 
 let factory = NIKFontAwesomeIconFactory()
-factory.createImage(for: .barChart)
+factory.createImage(.barChart)
 
 factory.colors = [NSColor.orange]
-factory.createImage(for: .flag)
+factory.createImage(.flag)
 
 factory.colors = [NSColor.orange, NSColor.red]
 factory.strokeWidth = 2
 factory.strokeColor = .white
 factory.size = 128
-factory.createImage(for: .arrowDown)
+factory.createImage(.arrowDown)
