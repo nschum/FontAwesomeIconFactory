@@ -27,7 +27,7 @@
  *
  * Default: dark gray
  */
-@property (nonatomic, copy) GENERIC(NSArray, NIKColor *) *colors;
+@property (nonatomic, copy) NSArray<NIKColor *> *colors;
 
 /**
  * Color for stroke around the icon.

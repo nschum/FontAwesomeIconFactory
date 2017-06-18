@@ -9,7 +9,8 @@
 @property (nonatomic, assign) CGPathRef path;
 @property (nonatomic, assign) CGPoint offset;
 
-@property (nonatomic, copy) GENERIC(NSArray, NIKColor *) *colors;
+@property (nonatomic, copy)
+NSArray<NIKColor*> *colors;
 @property (nonatomic, assign) CGColorRef strokeColor;
 @property (nonatomic, assign) CGFloat strokeWidth;
 

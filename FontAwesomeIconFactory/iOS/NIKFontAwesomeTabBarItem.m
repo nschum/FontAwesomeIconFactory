@@ -112,11 +112,11 @@
     self.edgeInsets = edgeInsets;
 }
 
-- (GENERIC(NSArray, UIColor *) *)colors {
+- (NSArray<UIColor *> *)colors {
     return self.factory.colors;
 }
 
-- (void)setColors:(GENERIC(NSArray, UIColor *) *)colors {
+- (void)setColors:(NSArray<UIColor *> *)colors {
     self.factory.colors = [colors copy];
     [self setNeedsUpdateImage];
 }

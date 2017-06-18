@@ -35,7 +35,7 @@ typedef NSBezierPath NIKBezierPath;
     return self;
 }
 
-- (void)setColors:(GENERIC(NSArray, NIKColor *) *)colors {
+- (void)setColors:(NSArray<NIKColor *> *)colors {
     _colors = [colors copy];
 #if TARGET_OS_IPHONE
     if (self.renderingMode == UIImageRenderingModeAutomatic) {
