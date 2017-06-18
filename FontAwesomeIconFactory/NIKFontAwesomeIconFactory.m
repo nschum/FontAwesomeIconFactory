@@ -211,7 +211,6 @@ static CGColorRef copyCGColor(NIKColor *color) {
 
 + (instancetype)barButtonItemIconFactory {
     NIKFontAwesomeIconFactory *factory = [NIKFontAwesomeIconFactory new];
-    factory.colors = @[[UIColor whiteColor]];
     factory.size = 22.0;
     return factory;
 }
