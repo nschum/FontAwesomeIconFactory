@@ -6,6 +6,7 @@
 
 #pragma clang assume_nonnull begin
 
+NS_SWIFT_NAME(FontAwesomeButton)
 IB_DESIGNABLE
 @interface NIKFontAwesomeButton: NSButton<NIKFontAwesomeIconTraits>
 

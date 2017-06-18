@@ -787,4 +787,4 @@ typedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {
     NIKFontAwesomeIconYoutube = 0xf167,
     NIKFontAwesomeIconYoutubePlay = 0xf16a,
     NIKFontAwesomeIconYoutubeSquare = 0xf166,
-};
+} NS_SWIFT_NAME(NIKFontAwesomeIcon);

@@ -6,6 +6,7 @@
 
 #pragma clang assume_nonnull begin
 
+NS_SWIFT_NAME(FontAwesomeImageView)
 IB_DESIGNABLE
 @interface NIKFontAwesomeImageView: NSImageView<NIKFontAwesomeIconTraits>
 

@@ -2,6 +2,7 @@
 
 #pragma clang assume_nonnull begin
 
+NS_SWIFT_NAME(FontAwesomeIconTraits)
 @protocol NIKFontAwesomeIconTraits
 
 /** The height in points of the created images. */

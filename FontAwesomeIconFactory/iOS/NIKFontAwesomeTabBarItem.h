@@ -6,6 +6,7 @@
 
 #pragma clang assume_nonnull begin
 
+NS_SWIFT_NAME(FontAwesomeTabBarItem)
 IB_DESIGNABLE // isn't actually rendered by Interface Builder
 @interface NIKFontAwesomeTabBarItem: UITabBarItem<NIKFontAwesomeIconTraits>
 

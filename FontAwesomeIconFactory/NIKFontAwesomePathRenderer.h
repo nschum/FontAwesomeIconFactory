@@ -4,6 +4,7 @@
 #pragma clang assume_nonnull begin
 
 /** Renders a path using a CGContext. */
+NS_SWIFT_NAME(FontAwesomePathRenderer)
 @interface NIKFontAwesomePathRenderer : NSObject
 
 @property (nonatomic, assign) CGPathRef path;

@@ -4,6 +4,7 @@
 
 #pragma clang assume_nonnull begin
 
+NS_SWIFT_NAME(FontAwesomePathFactory)
 @interface NIKFontAwesomePathFactory : NSObject
 
 - (CGPathRef)createPathForIcon:(NIKFontAwesomeIcon)icon

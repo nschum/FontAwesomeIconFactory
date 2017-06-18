@@ -2,7 +2,7 @@
 
 import FontAwesomeIconFactory
 
-let factory = NIKFontAwesomeIconFactory()
+let factory = FontAwesomeIconFactory()
 factory.createImage(.barChart)
 
 factory.colors = [NSColor.orange]

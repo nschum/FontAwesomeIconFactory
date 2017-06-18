@@ -21,6 +21,7 @@ typedef NSImage NIKImage;
  *
  * "Font Awesome" (http://fortawesome.github.com/Font-Awesome/) must be part of the app bundle.
  **/
+NS_SWIFT_NAME(FontAwesomeIconFactory)
 @interface NIKFontAwesomeIconFactory : NSObject<NSCopying, NIKFontAwesomeIconTraits>
 
 /** Create an NSImage/UIImage from an icon. */

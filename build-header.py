@@ -18,7 +18,7 @@ def convert_symbol(name):
 
 head = "@import Foundation;\n\ntypedef NS_ENUM(UniChar, NIKFontAwesomeIcon) {\n"
 code = "    NIKFontAwesomeIcon{} = 0x{},\n"
-foot = "};\n"
+foot = "} NS_SWIFT_NAME(NIKFontAwesomeIcon);\n"
 w = open('./FontAwesomeIconFactory/NIKFontAwesomeIcon.h', 'w')
 w.write(head)
 f = open('./Font-Awesome/scss/_variables.scss', 'r')
