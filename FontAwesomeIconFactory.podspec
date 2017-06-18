@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     :submodules => "true"
   }
 
-  s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.7"
 
   s.source_files = "FontAwesomeIconFactory/*.{h,m}"

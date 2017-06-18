@@ -51,9 +51,7 @@
         if (icon == NIKFontAwesomeIconHeart) {
             NIKFontAwesomeIconFactory *textlessButtonFactory =
                 [NIKFontAwesomeIconFactory textlessButtonIconFactory];
-#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
             textlessButtonFactory.renderingMode = UIImageRenderingModeAlwaysOriginal;
-#endif
             textlessButtonFactory.colors = @[[UIColor redColor], [UIColor darkGrayColor]];
             textlessButtonFactory.strokeColor = [UIColor blackColor];
             textlessButtonFactory.strokeWidth = 1.0;

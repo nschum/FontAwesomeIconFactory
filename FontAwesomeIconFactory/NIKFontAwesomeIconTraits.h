@@ -43,7 +43,7 @@
  */
 @property (nonatomic, assign) CGFloat strokeWidth;
 
-#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+#if TARGET_OS_IPHONE
 /**
  * Rendering mode for the created images.
  *

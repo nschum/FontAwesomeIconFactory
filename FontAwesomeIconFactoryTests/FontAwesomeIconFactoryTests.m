@@ -116,7 +116,7 @@ static const float EPSILON = 0.0001;
     }];
 }
 
-#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+#if TARGET_OS_IPHONE
 - (void)testRenderingModeShouldBeAutomaticByDefault {
     assertThat(@(_factory.renderingMode), equalTo(@(UIImageRenderingModeAutomatic)));
 }

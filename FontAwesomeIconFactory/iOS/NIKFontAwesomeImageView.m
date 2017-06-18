@@ -211,8 +211,6 @@
     [self setNeedsUpdateImage];
 }
 
-#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
-
 - (UIImageRenderingMode)renderingMode {
     return self.factory.renderingMode;
 }
@@ -221,7 +219,5 @@
     self.factory.renderingMode = renderingMode;
     [self setNeedsUpdateImage];
 }
-
-#endif
 
 @end

@@ -19,7 +19,7 @@ typedef NSBezierPath NIKBezierPath;
 @synthesize strokeColor = _strokeColor;
 @synthesize strokeWidth = _strokeWidth;
 
-#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+#if TARGET_OS_IPHONE
 @synthesize renderingMode = _renderingMode;
 #endif
 
@@ -37,7 +37,7 @@ typedef NSBezierPath NIKBezierPath;
 
 - (void)setColors:(GENERIC(NSArray, NIKColor *) *)colors {
     _colors = [colors copy];
-#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+#if TARGET_OS_IPHONE
     if (self.renderingMode == UIImageRenderingModeAutomatic) {
         self.renderingMode = UIImageRenderingModeAlwaysOriginal;
     }
@@ -123,13 +123,9 @@ typedef NSBezierPath NIKBezierPath;
 
     UIGraphicsEndImageContext();
 
-#if TARGET_OS_IPHONE && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
-    if ([image respondsToSelector:@selector(renderingMode)]) {
-        if (image.renderingMode != _renderingMode) {
-            image = [image imageWithRenderingMode:_renderingMode];
-        }
+    if (image.renderingMode != _renderingMode) {
+        image = [image imageWithRenderingMode:_renderingMode];
     }
-#endif
     return image;
 
 #else
