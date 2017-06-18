@@ -45,8 +45,8 @@
 		24414F0D1B2CFE200062E253 /* NIKFontAwesomePathRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 24414EAC1B2CEC4F0062E253 /* NIKFontAwesomePathRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24414F0E1B2CFE3F0062E253 /* NIKFontAwesomeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 24414EBB1B2CEC650062E253 /* NIKFontAwesomeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24414F0F1B2CFE420062E253 /* NIKFontAwesomeImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 24414EBD1B2CEC650062E253 /* NIKFontAwesomeImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		673675BAF558663DE5E01C3F /* libPods-FontAwesomeIconFactoryOSXTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3045FD521CD9F797BEB4FDC /* libPods-FontAwesomeIconFactoryOSXTests.a */; };
-		741A11133F4E1FD39EFB24A4 /* libPods-FontAwesomeIconFactoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C173DB9E85F14175437E55 /* libPods-FontAwesomeIconFactoryTests.a */; };
+		30238395210B0A7A44AB0E04 /* libPods-FontAwesomeIconFactoryOSXTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D761B5183C597BCE3BFBD4E /* libPods-FontAwesomeIconFactoryOSXTests.a */; };
+		567E069D444629246435D459 /* libPods-FontAwesomeIconFactoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C2B19CF1B6441A96B30F53 /* libPods-FontAwesomeIconFactoryTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4A2DE58FC52C0C6318E5DC /* Pods-FontAwesomeIconFactoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryTests/Pods-FontAwesomeIconFactoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2412BE6B1B97820900B45D60 /* range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = range.h; sourceTree = "<group>"; };
 		24414E671B2B8D770062E253 /* FontAwesomeIconFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeIconFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24414E6B1B2B8D770062E253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,13 +99,12 @@
 		24414EC91B2CEC990062E253 /* NIKFontAwesomeTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NIKFontAwesomeTabBarItem.h; path = iOS/NIKFontAwesomeTabBarItem.h; sourceTree = "<group>"; };
 		24414ECA1B2CEC990062E253 /* NIKFontAwesomeTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeTabBarItem.m; path = iOS/NIKFontAwesomeTabBarItem.m; sourceTree = "<group>"; };
 		24414EDB1B2CEEEF0062E253 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "Font-Awesome/fonts/FontAwesome.otf"; sourceTree = SOURCE_ROOT; };
+		24C2B19CF1B6441A96B30F53 /* libPods-FontAwesomeIconFactoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeIconFactoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E82C161B30DABD008E23A6 /* Demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Demo.playground; path = FontAwesomeIconFactory/Demo.playground; sourceTree = "<group>"; };
-		34C173DB9E85F14175437E55 /* libPods-FontAwesomeIconFactoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeIconFactoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6234A805103089BF459DB0F0 /* Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryOSXTests/Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig"; sourceTree = "<group>"; };
-		872043D3F54580BEDB55CEEC /* Pods-FontAwesomeIconFactoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryTests/Pods-FontAwesomeIconFactoryTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3045FD521CD9F797BEB4FDC /* libPods-FontAwesomeIconFactoryOSXTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeIconFactoryOSXTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB2CA9ABBE1BA93F7BFDF6D1 /* Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryOSXTests/Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig"; sourceTree = "<group>"; };
-		F7341E48D79B8FCF67422343 /* Pods-FontAwesomeIconFactoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryTests/Pods-FontAwesomeIconFactoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		37352FF5EE4291B385144791 /* Pods-FontAwesomeIconFactoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryTests/Pods-FontAwesomeIconFactoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D761B5183C597BCE3BFBD4E /* libPods-FontAwesomeIconFactoryOSXTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeIconFactoryOSXTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D791425320C5C410AB027C2 /* Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryOSXTests/Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF6374A9779216AF1FE0F6C3 /* Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryOSXTests/Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24414E731B2B8D770062E253 /* FontAwesomeIconFactory.framework in Frameworks */,
-				741A11133F4E1FD39EFB24A4 /* libPods-FontAwesomeIconFactoryTests.a in Frameworks */,
+				567E069D444629246435D459 /* libPods-FontAwesomeIconFactoryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +136,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				24414E931B2CE9D70062E253 /* FontAwesomeIconFactory.framework in Frameworks */,
-				673675BAF558663DE5E01C3F /* libPods-FontAwesomeIconFactoryOSXTests.a in Frameworks */,
+				30238395210B0A7A44AB0E04 /* libPods-FontAwesomeIconFactoryOSXTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17F402BEC3C9F563023F5B30 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C3045FD521CD9F797BEB4FDC /* libPods-FontAwesomeIconFactoryOSXTests.a */,
-				34C173DB9E85F14175437E55 /* libPods-FontAwesomeIconFactoryTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		24414E5D1B2B8D770062E253 = {
 			isa = PBXGroup;
 			children = (
@@ -159,8 +150,8 @@
 				24414E691B2B8D770062E253 /* FontAwesomeIconFactory */,
 				24414E761B2B8D770062E253 /* FontAwesomeIconFactoryTests */,
 				24414E681B2B8D770062E253 /* Products */,
-				F7AA0062AF48D8A2EC9D2B35 /* Pods */,
-				17F402BEC3C9F563023F5B30 /* Frameworks */,
+				2F3DFCC1B4990CC06118FBAB /* Pods */,
+				2904E77AB9CDC3B7F2DC6A83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,13 +239,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F7AA0062AF48D8A2EC9D2B35 /* Pods */ = {
+		2904E77AB9CDC3B7F2DC6A83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6234A805103089BF459DB0F0 /* Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig */,
-				CB2CA9ABBE1BA93F7BFDF6D1 /* Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig */,
-				872043D3F54580BEDB55CEEC /* Pods-FontAwesomeIconFactoryTests.debug.xcconfig */,
-				F7341E48D79B8FCF67422343 /* Pods-FontAwesomeIconFactoryTests.release.xcconfig */,
+				5D761B5183C597BCE3BFBD4E /* libPods-FontAwesomeIconFactoryOSXTests.a */,
+				24C2B19CF1B6441A96B30F53 /* libPods-FontAwesomeIconFactoryTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F3DFCC1B4990CC06118FBAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D791425320C5C410AB027C2 /* Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig */,
+				DF6374A9779216AF1FE0F6C3 /* Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig */,
+				1A4A2DE58FC52C0C6318E5DC /* Pods-FontAwesomeIconFactoryTests.debug.xcconfig */,
+				37352FF5EE4291B385144791 /* Pods-FontAwesomeIconFactoryTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -322,11 +322,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24414E801B2B8D770062E253 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactoryTests" */;
 			buildPhases = (
-				CC96E46D4316AC25D7C29DBE /* Check Pods Manifest.lock */,
+				A988339D7164BC6B2FD00DF1 /* [CP] Check Pods Manifest.lock */,
 				24414E6E1B2B8D770062E253 /* Sources */,
 				24414E6F1B2B8D770062E253 /* Frameworks */,
 				24414E701B2B8D770062E253 /* Resources */,
-				1E7DCEE746FD0BC054D76155 /* Copy Pods Resources */,
+				5DFF626FB058F905F87B9FF8 /* [CP] Embed Pods Frameworks */,
+				AECDD9D5EC4787B167006E2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -360,11 +361,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24414EA01B2CE9D70062E253 /* Build configuration list for PBXNativeTarget "FontAwesomeIconFactoryOSXTests" */;
 			buildPhases = (
-				3D733B6469BE4843B375307E /* Check Pods Manifest.lock */,
+				4DB741F1233426EE88935A47 /* [CP] Check Pods Manifest.lock */,
 				24414E8E1B2CE9D70062E253 /* Sources */,
 				24414E8F1B2CE9D70062E253 /* Frameworks */,
 				24414E901B2CE9D70062E253 /* Resources */,
-				B2FDE76907C645E3B0401B73 /* Copy Pods Resources */,
+				AE2D6BD6F442C9FBFCAC76FB /* [CP] Embed Pods Frameworks */,
+				665F977995BB590E23CE791A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -453,44 +455,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E7DCEE746FD0BC054D76155 /* Copy Pods Resources */ = {
+		4DB741F1233426EE88935A47 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontAwesomeIconFactoryTests/Pods-FontAwesomeIconFactoryTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		3D733B6469BE4843B375307E /* Check Pods Manifest.lock */ = {
+		5DFF626FB058F905F87B9FF8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontAwesomeIconFactoryTests/Pods-FontAwesomeIconFactoryTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B2FDE76907C645E3B0401B73 /* Copy Pods Resources */ = {
+		665F977995BB590E23CE791A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,19 +500,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontAwesomeIconFactoryOSXTests/Pods-FontAwesomeIconFactoryOSXTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CC96E46D4316AC25D7C29DBE /* Check Pods Manifest.lock */ = {
+		A988339D7164BC6B2FD00DF1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2D6BD6F442C9FBFCAC76FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontAwesomeIconFactoryOSXTests/Pods-FontAwesomeIconFactoryOSXTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AECDD9D5EC4787B167006E2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontAwesomeIconFactoryTests/Pods-FontAwesomeIconFactoryTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -698,7 +730,7 @@
 		};
 		24414E811B2B8D770062E253 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 872043D3F54580BEDB55CEEC /* Pods-FontAwesomeIconFactoryTests.debug.xcconfig */;
+			baseConfigurationReference = 1A4A2DE58FC52C0C6318E5DC /* Pods-FontAwesomeIconFactoryTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -717,7 +749,7 @@
 		};
 		24414E821B2B8D770062E253 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7341E48D79B8FCF67422343 /* Pods-FontAwesomeIconFactoryTests.release.xcconfig */;
+			baseConfigurationReference = 37352FF5EE4291B385144791 /* Pods-FontAwesomeIconFactoryTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -775,7 +807,7 @@
 		};
 		24414E9D1B2CE9D70062E253 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6234A805103089BF459DB0F0 /* Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig */;
+			baseConfigurationReference = 5D791425320C5C410AB027C2 /* Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -797,7 +829,7 @@
 		};
 		24414E9E1B2CE9D70062E253 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB2CA9ABBE1BA93F7BFDF6D1 /* Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig */;
+			baseConfigurationReference = DF6374A9779216AF1FE0F6C3 /* Pods-FontAwesomeIconFactoryOSXTests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
