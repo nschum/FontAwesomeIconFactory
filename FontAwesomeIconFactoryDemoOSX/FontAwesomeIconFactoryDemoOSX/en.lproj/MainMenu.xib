@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13196" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13196"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -651,7 +652,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="149"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
             <view key="contentView" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="149"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -666,13 +667,6 @@
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="587">
                         <rect key="frame" x="14" y="57" width="66" height="32"/>
                         <buttonCell key="cell" type="push" title="Test" bezelStyle="rounded" imagePosition="left" alignment="center" borderStyle="border" inset="2" id="589">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                    </button>
-                    <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="645">
-                        <rect key="frame" x="215" y="102" width="51" height="29"/>
-                        <buttonCell key="cell" type="bevel" title="Test" bezelStyle="regularSquare" alignment="center" borderStyle="border" inset="2" id="648">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -701,6 +695,13 @@
                     <button translatesAutoresizingMaskIntoConstraints="NO" id="695">
                         <rect key="frame" x="215" y="17" width="50" height="29"/>
                         <buttonCell key="cell" type="bevel" title="Test" bezelStyle="regularSquare" imagePosition="below" alignment="center" borderStyle="border" inset="2" id="696">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="645">
+                        <rect key="frame" x="215" y="102" width="51" height="29"/>
+                        <buttonCell key="cell" type="bevel" title="Test" bezelStyle="regularSquare" alignment="center" borderStyle="border" inset="2" id="648">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>

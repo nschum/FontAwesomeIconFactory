@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--First-->
@@ -14,82 +18,66 @@
                         <viewControllerLayoutGuide type="bottom" id="foq-1z-KnR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0f-sr-weD">
                                 <rect key="frame" x="20" y="64" width="46" height="43"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="Zx2-3h-Ok0"/>
                                 </constraints>
                                 <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6d-4N-zdq">
                                 <rect key="frame" x="20" y="115" width="46" height="43"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="vLk-kO-f6e"/>
                                 </constraints>
                                 <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJs-LA-nyM">
                                 <rect key="frame" x="20" y="166" width="46" height="43"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="WLM-2y-P3P"/>
                                 </constraints>
                                 <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="by9-9P-7rL">
                                 <rect key="frame" x="20" y="217" width="46" height="43"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="ndM-uc-93t"/>
                                 </constraints>
                                 <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLs-eE-ldQ">
-                                <rect key="frame" x="20" y="268" width="46" height="43"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="Ud0-Q1-3HV"/>
-                                </constraints>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6G-6W-xRd">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6G-6W-xRd">
                                 <rect key="frame" x="20" y="319" width="46" height="43"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="Sxc-SQ-Gta"/>
                                 </constraints>
                                 <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESy-Q6-0Bv" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="141" y="64" width="38" height="43"/>
-                                <animations/>
+                                <rect key="frame" x="168.5" y="64" width="38" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="xT4-Ff-DJm"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f05e"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.90426587300000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.90426587300000005" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="size">
                                         <real key="value" value="44"/>
@@ -97,13 +85,12 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfZ-ew-ly0" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="141" y="115" width="38" height="43"/>
-                                <animations/>
+                                <rect key="frame" x="168.5" y="115" width="38" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="LY9-gL-bVV"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f207"/>
@@ -111,29 +98,28 @@
                                         <real key="value" value="44"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
-                                        <color key="value" red="0.5032959581186891" green="0.00031487196322956386" blue="0.68563366377407409" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.5032959581186891" green="0.00031487196322956386" blue="0.68563366377407409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="strokeWidth">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrC-C8-1Ly" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="141" y="166" width="44" height="43"/>
-                                <animations/>
+                                <rect key="frame" x="168.5" y="166" width="44" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="6Wk-jj-VwZ"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f0a5"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="size">
                                         <real key="value" value="44"/>
@@ -141,32 +127,30 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ody-1O-7hG" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="141" y="217" width="44" height="43"/>
-                                <animations/>
+                                <rect key="frame" x="168.5" y="217" width="44" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="wUd-Yp-x7H"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f004"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.81733630952380953" green="0.049697199099116129" blue="0.0082872927236939311" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.81733630952380953" green="0.049697199099116129" blue="0.0082872927236939311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="size">
                                         <real key="value" value="44"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jW-cA-kNb" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="141" y="268" width="45" height="43"/>
-                                <animations/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jW-cA-kNb" customClass="NIKFontAwesomeButton">
+                                <rect key="frame" x="168.5" y="268" width="45" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="8FR-ru-Mxl"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f0c4"/>
@@ -175,14 +159,13 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cF-Dt-0Qj" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="141" y="319" width="51" height="43"/>
-                                <animations/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cF-Dt-0Qj" customClass="NIKFontAwesomeButton">
+                                <rect key="frame" x="168.5" y="319" width="51" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="zY7-cg-Pih"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f201"/>
@@ -192,13 +175,12 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBF-Ww-20h" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="260" y="64" width="40" height="43"/>
-                                <animations/>
+                                <rect key="frame" x="315" y="64" width="40" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="8ST-WW-bkG"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f193"/>
@@ -208,13 +190,12 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPi-OP-v5M" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="271" y="115" width="29" height="43"/>
-                                <animations/>
+                                <rect key="frame" x="326" y="115" width="29" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="JyJ-Kd-WJ9"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f130"/>
@@ -224,18 +205,17 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYn-NN-GX4" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="252" y="166" width="48" height="43"/>
-                                <animations/>
+                                <rect key="frame" x="307" y="166" width="48" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="dOC-Rd-nel"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f0d6"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.2498530749" green="0.53842179229999998" blue="0.20882860240000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.2498530749" green="0.53842179229999998" blue="0.20882860240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="size">
                                         <real key="value" value="44"/>
@@ -243,13 +223,12 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63B-eQ-FEL" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="262" y="217" width="38" height="43"/>
-                                <animations/>
+                                <rect key="frame" x="317" y="217" width="38" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="CeR-ml-8hb"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f01c"/>
@@ -258,14 +237,13 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVv-fT-aFj" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="277" y="268" width="23" height="43"/>
-                                <animations/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVv-fT-aFj" customClass="NIKFontAwesomeButton">
+                                <rect key="frame" x="332" y="268" width="23" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="FLM-F3-Hdj"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f0e7"/>
@@ -274,19 +252,18 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFP-I3-0Kj" customClass="NIKFontAwesomeButton">
-                                <rect key="frame" x="256" y="319" width="44" height="43"/>
-                                <animations/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFP-I3-0Kj" customClass="NIKFontAwesomeButton">
+                                <rect key="frame" x="311" y="319" width="44" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="WyL-gh-Ixs"/>
                                 </constraints>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f1e2"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="size">
                                         <real key="value" value="44"/>
@@ -294,8 +271,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="T7K-aS-e1C">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <animations/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="nMs-hZ-vwa"/>
                                 </constraints>
@@ -304,8 +280,7 @@
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="T7K-aS-e1C" firstAttribute="top" secondItem="16" secondAttribute="top" id="232-NG-yH0"/>
                             <constraint firstItem="ESy-Q6-0Bv" firstAttribute="centerX" secondItem="T7K-aS-e1C" secondAttribute="centerX" id="2y8-gZ-r3b"/>
@@ -316,7 +291,6 @@
                             <constraint firstItem="T7K-aS-e1C" firstAttribute="leading" secondItem="16" secondAttribute="leading" id="6Es-V6-1HR"/>
                             <constraint firstItem="ody-1O-7hG" firstAttribute="centerY" secondItem="by9-9P-7rL" secondAttribute="centerY" id="9LU-bQ-ccy"/>
                             <constraint firstItem="63B-eQ-FEL" firstAttribute="centerY" secondItem="ody-1O-7hG" secondAttribute="centerY" id="ASo-IR-mGV"/>
-                            <constraint firstItem="X6G-6W-xRd" firstAttribute="top" secondItem="rLs-eE-ldQ" secondAttribute="bottom" constant="8" symbolic="YES" id="DBt-O7-3If"/>
                             <constraint firstItem="by9-9P-7rL" firstAttribute="top" secondItem="ZJs-LA-nyM" secondAttribute="bottom" constant="8" symbolic="YES" id="Eo9-st-sQF"/>
                             <constraint firstItem="mrC-C8-1Ly" firstAttribute="leading" secondItem="ody-1O-7hG" secondAttribute="leading" id="GmI-7E-QdP"/>
                             <constraint firstAttribute="trailing" secondItem="CPi-OP-v5M" secondAttribute="trailing" constant="20" symbolic="YES" id="IwN-Hc-crH"/>
@@ -329,7 +303,6 @@
                             <constraint firstAttribute="trailing" secondItem="iVv-fT-aFj" secondAttribute="trailing" constant="20" symbolic="YES" id="aqt-w9-9zA"/>
                             <constraint firstAttribute="trailing" secondItem="hBF-Ww-20h" secondAttribute="trailing" constant="20" symbolic="YES" id="atX-s6-sod"/>
                             <constraint firstItem="8cF-Dt-0Qj" firstAttribute="leading" secondItem="0jW-cA-kNb" secondAttribute="leading" id="bFi-gQ-vrr"/>
-                            <constraint firstItem="rLs-eE-ldQ" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" id="buz-FO-I8W"/>
                             <constraint firstItem="by9-9P-7rL" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" id="bzQ-xA-Ruc"/>
                             <constraint firstItem="ESy-Q6-0Bv" firstAttribute="centerY" secondItem="hBF-Ww-20h" secondAttribute="centerY" id="cGc-dJ-l3g"/>
                             <constraint firstItem="X6d-4N-zdq" firstAttribute="centerY" secondItem="UfZ-ew-ly0" secondAttribute="centerY" id="eG6-1o-SgZ"/>
@@ -341,11 +314,9 @@
                             <constraint firstItem="mrC-C8-1Ly" firstAttribute="centerY" secondItem="LYn-NN-GX4" secondAttribute="centerY" id="l4N-CL-Tv0"/>
                             <constraint firstItem="ZJs-LA-nyM" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" id="lVn-Gi-Olp"/>
                             <constraint firstItem="8cF-Dt-0Qj" firstAttribute="centerY" secondItem="X6G-6W-xRd" secondAttribute="centerY" id="mqF-4h-xgf"/>
-                            <constraint firstItem="0jW-cA-kNb" firstAttribute="centerY" secondItem="rLs-eE-ldQ" secondAttribute="centerY" id="n36-NB-oV3"/>
                             <constraint firstAttribute="trailing" secondItem="yFP-I3-0Kj" secondAttribute="trailing" constant="20" symbolic="YES" id="ses-kk-Gpd"/>
                             <constraint firstItem="X6G-6W-xRd" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" id="vbc-ZL-P0Y"/>
                             <constraint firstItem="T7K-aS-e1C" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" id="ym6-wX-jYc"/>
-                            <constraint firstItem="rLs-eE-ldQ" firstAttribute="top" secondItem="by9-9P-7rL" secondAttribute="bottom" constant="8" symbolic="YES" id="zjn-BS-m88"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" id="7"/>
@@ -355,7 +326,6 @@
                         <outletCollection property="buttons" destination="X6d-4N-zdq" id="5Qm-QF-O7M"/>
                         <outletCollection property="buttons" destination="ZJs-LA-nyM" id="obJ-9W-NIK"/>
                         <outletCollection property="buttons" destination="by9-9P-7rL" id="HJu-Cn-d4Y"/>
-                        <outletCollection property="buttons" destination="rLs-eE-ldQ" id="j6l-wS-b5B"/>
                         <outletCollection property="buttons" destination="X6G-6W-xRd" id="LSz-hb-Gkt"/>
                     </connections>
                 </viewController>
@@ -372,12 +342,11 @@
                         <viewControllerLayoutGuide type="bottom" id="uXe-vD-BiK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="17">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="neX-RR-mnz" customClass="NIKFontAwesomeImageView">
-                                <rect key="frame" x="16" y="20" width="288" height="491"/>
-                                <animations/>
+                                <rect key="frame" x="16" y="20" width="343" height="590"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="iconHex" value="f024"/>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="square" value="NO"/>
@@ -386,16 +355,15 @@
                                         <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                        <color key="value" red="0.057512922167482237" green="0.28639555173879971" blue="0.68563366380000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.057512922167482237" green="0.28639555173879971" blue="0.68563366380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color2">
-                                        <color key="value" red="0.39015242780118731" green="1" blue="0.65953454293987634" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="value" red="0.39015242780118731" green="1" blue="0.65953454293987634" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="neX-RR-mnz" firstAttribute="top" secondItem="h0b-TP-k8f" secondAttribute="bottom" id="DeW-Mc-5T6"/>
                             <constraint firstItem="neX-RR-mnz" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="16" id="WWb-jR-cOu"/>
@@ -421,8 +389,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>

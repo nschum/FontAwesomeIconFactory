@@ -100,7 +100,7 @@
 		24414ECA1B2CEC990062E253 /* NIKFontAwesomeTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NIKFontAwesomeTabBarItem.m; path = iOS/NIKFontAwesomeTabBarItem.m; sourceTree = "<group>"; };
 		24414EDB1B2CEEEF0062E253 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "Font-Awesome/fonts/FontAwesome.otf"; sourceTree = SOURCE_ROOT; };
 		24C2B19CF1B6441A96B30F53 /* libPods-FontAwesomeIconFactoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeIconFactoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24E82C161B30DABD008E23A6 /* Demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Demo.playground; path = FontAwesomeIconFactory/Demo.playground; sourceTree = "<group>"; };
+		24E82C161B30DABD008E23A6 /* Demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Demo.playground; path = FontAwesomeIconFactory/Demo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		37352FF5EE4291B385144791 /* Pods-FontAwesomeIconFactoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryTests/Pods-FontAwesomeIconFactoryTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D761B5183C597BCE3BFBD4E /* libPods-FontAwesomeIconFactoryOSXTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontAwesomeIconFactoryOSXTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D791425320C5C410AB027C2 /* Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontAwesomeIconFactoryOSXTests/Pods-FontAwesomeIconFactoryOSXTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -384,7 +384,7 @@
 		24414E5E1B2B8D770062E253 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Nikolaj Schumacher";
 				TargetAttributes = {
 					24414E661B2B8D770062E253 = {
@@ -613,14 +613,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -664,14 +670,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
